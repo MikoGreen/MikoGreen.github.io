@@ -158,11 +158,3397 @@
     </item>
     
     <item>
-      <title>External Project</title>
+      <title>Внешний курс по информационной безопасности</title>
       <link>https://example.com/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
+&lt;p&gt;Цель данного курса - узнать, как обеспечивается безопасность интернет-трафика, какие пароли нужно выбирать и как их хранить, познакомиться с методами защиты сообщений в мессенджерах (WhatsApp, Telegram), понять, как работают механизмы аунтефикации в электронных платежах, а также зачем нас иногда просят выбрать квадраты, где изображены светофоры.&lt;/p&gt;
+&lt;h1 id=&#34;выполнение&#34;&gt;Выполнение&lt;/h1&gt;
+&lt;h2 id=&#34;как-работает-интернет-базовые-сетевые-протоколы&#34;&gt;Как работает интернет: базовые сетевые протоколы&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Выберите протокол прикладного уровня:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;HTTPS&#34; srcset=&#34;
+               /project/external-project/2.1/1_hud7733b3168071ca240422d895419277f_263040_db671e5d7fd704b6e608d45c7856bcf3.webp 400w,
+               /project/external-project/2.1/1_hud7733b3168071ca240422d895419277f_263040_537c97c0d65bffd5f7d62073c1de5321.webp 760w,
+               /project/external-project/2.1/1_hud7733b3168071ca240422d895419277f_263040_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.1/1_hud7733b3168071ca240422d895419277f_263040_db671e5d7fd704b6e608d45c7856bcf3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Среди всех представленных TCP, UDP - протоколы транспортного уровня, а IP - сетевого. Протокол прикладного уровня здесь только один - HTTPS.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;На каком уровне работает протокол &lt;code&gt;TCP&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Ответ&#34; srcset=&#34;
+               /project/external-project/2.1/2_hu9eb9573b9024594832ce1592679c932b_268388_39cdf0250edd9fb56e540a61b7c4c9e7.webp 400w,
+               /project/external-project/2.1/2_hu9eb9573b9024594832ce1592679c932b_268388_9a20e66ea5e57443ed75fdb26c0fa577.webp 760w,
+               /project/external-project/2.1/2_hu9eb9573b9024594832ce1592679c932b_268388_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.1/2_hu9eb9573b9024594832ce1592679c932b_268388_39cdf0250edd9fb56e540a61b7c4c9e7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Протокол TCP работает на &lt;em&gt;транспортном&lt;/em&gt; уровне.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Выберите все корректные адреса &lt;code&gt;IPv4&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Адреса&#34; srcset=&#34;
+               /project/external-project/2.1/3_hu8a55b8f714cf2ba9ecf835f22f61636b_277287_daf5b72eaa8763cfde9144202b0764ae.webp 400w,
+               /project/external-project/2.1/3_hu8a55b8f714cf2ba9ecf835f22f61636b_277287_7cbb0697c8dbb6c6cd4af1caa19e0e91.webp 760w,
+               /project/external-project/2.1/3_hu8a55b8f714cf2ba9ecf835f22f61636b_277287_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.1/3_hu8a55b8f714cf2ba9ecf835f22f61636b_277287_daf5b72eaa8763cfde9144202b0764ae.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Существуют две версии адресации в протоколе IP. Популярный на сегодняшний день - это версия 4 адресации (IPv4), и этот адрес состоит из большего набора чисел, нежели порт в TCP протоколе, а именно это 4 числа от 0 до 255. Например, адрес IPv4 может выглядеть вот так: 192.168.1.4. Соответсвенно, все числа, которые &amp;gt;255 не подходят.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Что делает &lt;code&gt;DNS&lt;/code&gt; сервер:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;DNS&#34; srcset=&#34;
+               /project/external-project/2.1/4_hu1921e8cd002fadeb8ffc659bb328f3e3_274237_43bdd9e9b93aaa654d94075cd74393a8.webp 400w,
+               /project/external-project/2.1/4_hu1921e8cd002fadeb8ffc659bb328f3e3_274237_c65656b0dfb4a3867059463b9d930087.webp 760w,
+               /project/external-project/2.1/4_hu1921e8cd002fadeb8ffc659bb328f3e3_274237_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.1/4_hu1921e8cd002fadeb8ffc659bb328f3e3_274237_43bdd9e9b93aaa654d94075cd74393a8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Oсновная задача DNS-сервера - это сопоставить название, то есть доменное имя, с корректным IP-адресом, с тем, где лежит этот сервер, этот сайт. Когда это сопоставление прошло (то есть я знаю, что yandex.ru находится по такому IP-адресу), дальше в сети сегмент моих данных передается по транзитным узлам или маршрутизаторам.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Выберите корректную последовательность протоколов модели &lt;code&gt;TCP/IP&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;TCP/IP&#34; srcset=&#34;
+               /project/external-project/2.1/5_huf4ea121bd41eaae8422e0d2747ce9988_289508_c3e9cd75da72a7367e74fd3282e62c36.webp 400w,
+               /project/external-project/2.1/5_huf4ea121bd41eaae8422e0d2747ce9988_289508_1318fe4866eea4ea0989d30f07809867.webp 760w,
+               /project/external-project/2.1/5_huf4ea121bd41eaae8422e0d2747ce9988_289508_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.1/5_huf4ea121bd41eaae8422e0d2747ce9988_289508_c3e9cd75da72a7367e74fd3282e62c36.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;В модели TCP/IP существует несколько уровней, а именно 4. На самом верхнем уровне, прикладном работают пользовательские программы, и задача прикладного уровня - обеспечить доступ для этих пользовательских программ к услугам Интернет. Все эти протоколы прикладного уровня работают над транспортным уровнем, это следующий уровень в модели TCP/IP. Транспортный уровень обеспечивает передачу данных между процессами на одной машине или хосте (host). Хост - это устройство, которое подключено к интернету. Это может быть компьютер, смартфон. И транспортный уровень отвечает за корректное распределение пакетов между программами. Транспортный уровень работает над следующим уровнем модели TCP, так называемым сетевым или межсетевым уровнем. В этом уровне принимает участие не только программа, не только наша машина, но уже наш роутер, то есть то устройство, к которому мы подключаемся, чтобы получить интернет. Сетевой уровень ответственен за передачу данных между различными физическими сетями. Сетевой уровень работает над так называемым канальным уровнем или самым низким уровнем модели TCP/IP. И в этой модели работает уже физика. Здесь происходит физическая передача данных. И здесь мы уже будем говорить о пропускной способности канала, об обеспечении помехоустойчивости, и основные примеры протоколов канального уровня непосредственно связаны с тем, как мы передаем данные.&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Протокол &lt;code&gt;http&lt;/code&gt; предполагает:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;HTTP&#34; srcset=&#34;
+               /project/external-project/2.1/6_hu028da08cb4527855af625b83cc630aaf_275177_a34574cdcb135b59d026fc1330aee979.webp 400w,
+               /project/external-project/2.1/6_hu028da08cb4527855af625b83cc630aaf_275177_5763f85383abc6ec8294ec4d9aef9b9a.webp 760w,
+               /project/external-project/2.1/6_hu028da08cb4527855af625b83cc630aaf_275177_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.1/6_hu028da08cb4527855af625b83cc630aaf_275177_a34574cdcb135b59d026fc1330aee979.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;HTTP-сообщения представляют собой обычный текст, поэтому неавторизованные лица могут легко получить к ним доступ и прочитать их через Интернет. Напротив, HTTPS передает все данные в зашифрованном виде.&lt;/p&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Протокол &lt;code&gt;https&lt;/code&gt; состоит из:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;HTTPS&#34; srcset=&#34;
+               /project/external-project/2.1/7_hu660866f27580bc87d92b9b283dfaa5cf_292570_c854919e9b6ed49779a737786e62bec6.webp 400w,
+               /project/external-project/2.1/7_hu660866f27580bc87d92b9b283dfaa5cf_292570_d87048505c631bfbf4bbd4ae5d4adec1.webp 760w,
+               /project/external-project/2.1/7_hu660866f27580bc87d92b9b283dfaa5cf_292570_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.1/7_hu660866f27580bc87d92b9b283dfaa5cf_292570_c854919e9b6ed49779a737786e62bec6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Протокол https состоит из 2 фаз: фазы рукопожатия и фазы данных. Во время фазы рукопожатия происходит:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;выбор параметров, протоколов&lt;/li&gt;
+&lt;li&gt;аунтефикация&lt;/li&gt;
+&lt;li&gt;формируется общий ключ К&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;В то время как во время фазы передачи данных происходит непосредственно шифрование трафика с помощью ключа К.&lt;/p&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;Версия протокола &lt;code&gt;TLS&lt;/code&gt; определяется:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;TLS&#34; srcset=&#34;
+               /project/external-project/2.1/8_hu7413dc61994805785f72c59af66ff801_271631_2b0f3adc95b6d544ccacf9ed34c068b1.webp 400w,
+               /project/external-project/2.1/8_hu7413dc61994805785f72c59af66ff801_271631_4e383aba24132d769792c727952acbeb.webp 760w,
+               /project/external-project/2.1/8_hu7413dc61994805785f72c59af66ff801_271631_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.1/8_hu7413dc61994805785f72c59af66ff801_271631_2b0f3adc95b6d544ccacf9ed34c068b1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Версия протокола выбирается в фазе рукопожатия при выборе параметров совместно.&lt;/p&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;В фазе &amp;ldquo;рукопожатия&amp;rdquo; протокола &lt;code&gt;TLS&lt;/code&gt; не предусмотрено:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;TLS&#34; srcset=&#34;
+               /project/external-project/2.1/9_hu7d0ec2871cf35f8050d753baf6d38412_292975_53b9e956a813399227e9f50423b72a09.webp 400w,
+               /project/external-project/2.1/9_hu7d0ec2871cf35f8050d753baf6d38412_292975_54d9a4e5d734337bdfe774ed2f4876d1.webp 760w,
+               /project/external-project/2.1/9_hu7d0ec2871cf35f8050d753baf6d38412_292975_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.1/9_hu7d0ec2871cf35f8050d753baf6d38412_292975_53b9e956a813399227e9f50423b72a09.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Шифрование данных происходит в фазе передачи данных.&lt;/p&gt;
+&lt;h2 id=&#34;персонализация-сети&#34;&gt;Персонализация сети&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Куки хранят:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cokkie&#34; srcset=&#34;
+               /project/external-project/2.2/1_hu47abda1a70b21d1b47d799c9e2619928_274217_10e9221f3ba8e0aeb4ede1fe3a179175.webp 400w,
+               /project/external-project/2.2/1_hu47abda1a70b21d1b47d799c9e2619928_274217_09044bf301b5f4a2432459fcdba6c4c0.webp 760w,
+               /project/external-project/2.2/1_hu47abda1a70b21d1b47d799c9e2619928_274217_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.2/1_hu47abda1a70b21d1b47d799c9e2619928_274217_10e9221f3ba8e0aeb4ede1fe3a179175.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Куки, как правило, хранят в себе список параметров и их значений. Этими параметрами могут быть id пользователя, id сессии, иногда описан тип браузера и время запросов и некоторые действия пользователей. Опять же, если это интернет-магазин, то в куки может храниться то, что мы просматривали, какие страницы мы посещали. В куки никогда не хранятся пароли или хэш от паролей пользователя, куки для этого не предназначены и не должны хранить наши пароли.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Куки не используются для:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cokkie&#34; srcset=&#34;
+               /project/external-project/2.2/2_hu1b263b179db0176bed06b2efb0c28284_275879_410a1c4443e927118a42682e1adab985.webp 400w,
+               /project/external-project/2.2/2_hu1b263b179db0176bed06b2efb0c28284_275879_bcf9011f3031b4969ca5c811fde92000.webp 760w,
+               /project/external-project/2.2/2_hu1b263b179db0176bed06b2efb0c28284_275879_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.2/2_hu1b263b179db0176bed06b2efb0c28284_275879_410a1c4443e927118a42682e1adab985.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Куки - это данные, которые передаются от сервера клиенту для его идентификации. Так, например, они сохраняют сессионную информацию. Примером является тот факт, что, когда вы, например, заходите на какой-то интернет-магазин, наполняете корзину каким-то покупками, но не завершайте покупку, а закрываете эту страницу, а потом открываете её когда-нибудь снова, часто получается так, что содержимое корзины запоминается. Кроме этого, куки позволяют персонализировать страницы: например, смена языка страницы, или когда браузер спрашивает, нужно ли перевести эту страницу на русский язык. А если вы попадаете на страницу с финским языком, и вы не часто или почти никогда не смотрите страницы на финском языке, то вас спрашивают, стоит изменить язык на какой-то другой. Кроме того, куки помогают отслеживать действия пользователей в сети. Этим часто пользуются рекламщики. Тоже, наверное, кто-то из вас встречался с такой ситуацией, когда вы покупаете что-то в интернет-магазине или смотрите какой-то товар в магазине, например, лыжи. Вы купили лыжи где-то или хотели купить, смотрели на них, и потом, заходя уже на страницы абсолютно других сайтов, никак не связанных с лыжами, в рекламе, рекламных разделах страницы вы вдруг увидите эти самые лыжи по несколько раз. Это происходит потому, что на первом сайте, где вы смотрели или купили товар, вы получили от этого сайта куки, которые записали ваши пожелания себе. Для разных сайтов эти куки выглядят по-разному, как правило, они содержат сессионный токен, который часто содержит имя пользователя, ну и ещё какие-то данные, которые позволяют этому конкретному серверу авторизовать этот браузер, этого клиента в эту конкретную сессию. Всегда, когда мы обновляем нашу страницу или переходим по каким-то ссылкам, браузер отправляет полученные заранее с этого сайта при первой авторизации куки, и наш браузер ответственен за хранение и управление куки, они у вас на вашей машине лежат. Естественно, куки - это удобно. А представьте себе, если бы каждый раз при нажатии на какую-то ссылку в Сбербанк Онлайн, вы бы заново проходили их двухфакторную аутентификацию. Конечно, это было бы неудобно, и мы делаем это исключительно благодаря тому, что при самой первой аутентификации нам прислал их сервер какие-то cookie.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Куки генерируются:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cokkie&#34; srcset=&#34;
+               /project/external-project/2.2/3_hua4158ee2e02b85ee38edaeb320bbf8f8_268478_d13ce14494bced1ab79cf837e1f1d63f.webp 400w,
+               /project/external-project/2.2/3_hua4158ee2e02b85ee38edaeb320bbf8f8_268478_b41d37834eb0df2ab60550728682cf5c.webp 760w,
+               /project/external-project/2.2/3_hua4158ee2e02b85ee38edaeb320bbf8f8_268478_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.2/3_hua4158ee2e02b85ee38edaeb320bbf8f8_268478_d13ce14494bced1ab79cf837e1f1d63f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Как видно из предыдущего пояснения, куки генерируются при входе на сайт самим сервером и сохраняются на компьютере пользователя.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Сессионные куки хранятся в браузере:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cokkie&#34; srcset=&#34;
+               /project/external-project/2.2/4_hu98b5da635d0d12951250941fd5833f52_269715_531b7a972ac4e8a0f22b827e2aa1db2b.webp 400w,
+               /project/external-project/2.2/4_hu98b5da635d0d12951250941fd5833f52_269715_b645f61c42c7ed3e8d421e744ed98195.webp 760w,
+               /project/external-project/2.2/4_hu98b5da635d0d12951250941fd5833f52_269715_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.2/4_hu98b5da635d0d12951250941fd5833f52_269715_531b7a972ac4e8a0f22b827e2aa1db2b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Куки бывают сессионные; как правило, эти cookies используются при навигации на сайте и удаляются при закрытии окна браузера. То есть мы закрыли какое-то окно, интернет-магазин открыли заново - корзина пуста. Это означает, что в этом сайте, на этом сервере cookies куки сессионные. Ещё они бывают постоянные, как правило, они используются при аутентификации. Постоянные cookies применяются для сбора информации, для статистики посещаемости сайта. Откуда, например, известно, сколько раз вы посетили какой-то сайт - это записывается в куках. Хотя они и называются постоянными, как правило, у всех кук есть срок жизни, и он также записан в ещё одном значении в куках.&lt;/p&gt;
+&lt;h2 id=&#34;браузер-tor-анонимизация&#34;&gt;Браузер TOR. Анонимизация&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Сколько промежуточных узлов в луковой сети TOR:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;TOR&#34; srcset=&#34;
+               /project/external-project/2.3/1_hudddf3173e9e573c2939edc135a87e8ba_261624_680dfcaeeb5e9f12e5d392fb078a0312.webp 400w,
+               /project/external-project/2.3/1_hudddf3173e9e573c2939edc135a87e8ba_261624_80553758a4f99bdafc5fd6154bc4cabb.webp 760w,
+               /project/external-project/2.3/1_hudddf3173e9e573c2939edc135a87e8ba_261624_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.3/1_hudddf3173e9e573c2939edc135a87e8ba_261624_680dfcaeeb5e9f12e5d392fb078a0312.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Узлы разделяются на охранный узел, промежуточный и выходной. Соответственно выходной узел, поскольку он является узлом перед получателем, знает, кому направлен пакет. Охранный узел знает, от кого пришёл пакет, поскольку он непосредственно является следующим узлом после отправителя, в то время как промежуточный узел не знает ни от кого этот пакет, ни кому он предназначен. В браузере Tor всегда есть три роутера, их не больше и не меньше. Их не меньше потому, что меньшего числа узлов не хватает для анонимизации, а большее число узлов не дает большую анонимизацию, поэтому выбирается всегда 3 луковых роутера.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;IP-адрес получателя известен:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;IP&#34; srcset=&#34;
+               /project/external-project/2.3/2_hu07051afed65cbc54deff166ecbbcbaa5_285102_9a059d56b8ad0849b694e3888e75369b.webp 400w,
+               /project/external-project/2.3/2_hu07051afed65cbc54deff166ecbbcbaa5_285102_2e374b5ffd5dddcd7973f2dc9248515d.webp 760w,
+               /project/external-project/2.3/2_hu07051afed65cbc54deff166ecbbcbaa5_285102_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.3/2_hu07051afed65cbc54deff166ecbbcbaa5_285102_9a059d56b8ad0849b694e3888e75369b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Для того, чтобы передать некий пакет данных с помощью луковой маршрутизации, отправитель шифрует пакет и ip-получателя, генерирует 3 ключа, и постепенно расшифровывая данные, получается так, что ip-получателя знает только отправитель и выходной узел, который непосредственно передает пакет данных получателю.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Отправитель генерирует общий секретный ключ:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ключ&#34; srcset=&#34;
+               /project/external-project/2.3/3_hu5bf8a225e7658b0ef2a04a229b144a3d_279723_3b50b9d9728eb9cb8c15b9be821835f0.webp 400w,
+               /project/external-project/2.3/3_hu5bf8a225e7658b0ef2a04a229b144a3d_279723_f3b1bd73c949562cfe527953d09ec56e.webp 760w,
+               /project/external-project/2.3/3_hu5bf8a225e7658b0ef2a04a229b144a3d_279723_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.3/3_hu5bf8a225e7658b0ef2a04a229b144a3d_279723_3b50b9d9728eb9cb8c15b9be821835f0.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Отправитель генерирует общие ключи с тремя промежуточным узлами. Далее он шифрует свои данные под каждым из этих ключей. В начале он шифрует данные для выходного узла, сверху он шифрует зашифрованные уже данные с помощью ключа промежуточного узла, и наконец он шифрует данные с помощью ключа с охранным узлом и отправляет это тройное шифрование в сеть.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Должен ли получатель использовать браузер TOR (или другой браузер, основанные на луковой маршрутизации) для успешного получения пакетов:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;TOR&#34; srcset=&#34;
+               /project/external-project/2.3/4_huedaa986a490474fcaad4d1d5b822a9cd_276661_b6febc066292b41bfe6882da1323fe71.webp 400w,
+               /project/external-project/2.3/4_huedaa986a490474fcaad4d1d5b822a9cd_276661_a932824ebbbf647eb236ebf74a7919b9.webp 760w,
+               /project/external-project/2.3/4_huedaa986a490474fcaad4d1d5b822a9cd_276661_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.3/4_huedaa986a490474fcaad4d1d5b822a9cd_276661_b6febc066292b41bfe6882da1323fe71.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Нет, это не обязательно. Для получения пакетов использование луковой маршрутизации не обязательно.&lt;/p&gt;
+&lt;h2 id=&#34;беспроводные-сети-wi-fi&#34;&gt;Беспроводные сети Wi-fi&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Wi-fi это:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Wi-fi&#34; srcset=&#34;
+               /project/external-project/2.4/1_hu097ab05da20b5724215448a2b16c35c7_278435_403caae7aca3c4df5fa7079bed6e3032.webp 400w,
+               /project/external-project/2.4/1_hu097ab05da20b5724215448a2b16c35c7_278435_f79b64dbdbf1d5690817046f0722a251.webp 760w,
+               /project/external-project/2.4/1_hu097ab05da20b5724215448a2b16c35c7_278435_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.4/1_hu097ab05da20b5724215448a2b16c35c7_278435_403caae7aca3c4df5fa7079bed6e3032.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;WiFi - это технология беспроводной локальной сети, она основана на стандарте IEEE 802.11. IEEE – это организация, которая описывает вообще любые стандарты того, как работает интернет. В частности, она описывает, как должен работать беспроводной интернет, и номер этого стандарта 802.11, и все последующие модификации (этот стандарт модифицируется с течением времени) носят название 802.11 и далее какие-то буквы.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;На каком уровне работает протокол Wi-fi:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Wi-fi&#34; srcset=&#34;
+               /project/external-project/2.4/2_hu888b6c0d753533036ec152e67c1ca1d3_272116_114f87e3d36b22e10ab341683ad46274.webp 400w,
+               /project/external-project/2.4/2_hu888b6c0d753533036ec152e67c1ca1d3_272116_44f5db2bf8fc52aa1d7b892efb32426f.webp 760w,
+               /project/external-project/2.4/2_hu888b6c0d753533036ec152e67c1ca1d3_272116_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.4/2_hu888b6c0d753533036ec152e67c1ca1d3_272116_114f87e3d36b22e10ab341683ad46274.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Канальный уровень (англ. Link layer) описывает способ кодирования данных для передачи пакета данных на физическом уровне (то есть специальные последовательности бит, определяющих начало и конец пакета данных, а также обеспечивающие помехоустойчивость). Ethernet, например, в полях заголовка пакета содержит указание того, какой машине или машинам в сети предназначен этот пакет. Примеры протоколов канального уровня — Ethernet, IEEE 802.11 WLAN, SLIP, Token Ring, ATM и MPLS.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Небезопасный метод обеспечения шифрования и аутентификации в сети Wi-Fi:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Wi-fi&#34; srcset=&#34;
+               /project/external-project/2.4/3_hu5bf8b68d06294ebb520a2693a43a273a_265702_c594189f31cb61fccd3e15d8ec55fe64.webp 400w,
+               /project/external-project/2.4/3_hu5bf8b68d06294ebb520a2693a43a273a_265702_98679b42d196ace12d7a3576d9f4759c.webp 760w,
+               /project/external-project/2.4/3_hu5bf8b68d06294ebb520a2693a43a273a_265702_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.4/3_hu5bf8b68d06294ebb520a2693a43a273a_265702_c594189f31cb61fccd3e15d8ec55fe64.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Самый ранний и на сегодняшний день небезопасный метод шифрования данных WiFi называется WEP. Он устарел и уже категорически не рекомендуется к использованию. Он устарел, в частности, потому, что использовал малую длину ключа: так, например, он использовал длину ключа в 40 бит, это довольно мало на сегодняшний день, он может быть легко взломан.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Данные между хостом сети (компьютером или смартфоном) и роутером:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Данные&#34; srcset=&#34;
+               /project/external-project/2.4/4_huaf9b4711f64fe443500d3c3f81fc5f14_290866_5bc85df37a26843a7d0d913aed7460ed.webp 400w,
+               /project/external-project/2.4/4_huaf9b4711f64fe443500d3c3f81fc5f14_290866_7693c90b02f331a6f4f36e9a53dd0b62.webp 760w,
+               /project/external-project/2.4/4_huaf9b4711f64fe443500d3c3f81fc5f14_290866_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.4/4_huaf9b4711f64fe443500d3c3f81fc5f14_290866_5bc85df37a26843a7d0d913aed7460ed.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Когда мы с вами соединяемся к роутеру, мы шифруем наши данные, и до того, как начать шифрование, мы аутентифицируем себя, свое устройство этому самому роутеру.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Для домашней сети для аутентификации обычно используется метод:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Домашняя сеть&#34; srcset=&#34;
+               /project/external-project/2.4/5_hu5754d41edae5e25cd8472c174b74be8f_269113_2899e53b06f9190c13f4aede92459c12.webp 400w,
+               /project/external-project/2.4/5_hu5754d41edae5e25cd8472c174b74be8f_269113_c735644fb9bc398a84ca01e1528ced7e.webp 760w,
+               /project/external-project/2.4/5_hu5754d41edae5e25cd8472c174b74be8f_269113_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/2.4/5_hu5754d41edae5e25cd8472c174b74be8f_269113_2899e53b06f9190c13f4aede92459c12.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Аутентификация в современных алгоритмах WPA, WPA2 может осуществляться в двух разных режимах: WPA Personal - это классическая аутентификация по паролю, как правило, такой алгоритм используется в домашних сетях или в небольших корпоративных сетях; более сложный метод аутентификации называется WPA Enterprise - это когда у нас существует база данных всех зарегистрированных пользователей, и когда человек подключается к сети WiFi, по этой базе данных проверяется, есть ли он в базе или нет, и как правило, сама эта база данных со списком разрешенных пользователей находится на специальных серверах. Это довольно сложное устройство аутентификации, которое, скорее всего, не нужно для маленьких домашних сетей.&lt;/p&gt;
+&lt;h2 id=&#34;шифрование-диска&#34;&gt;Шифрование диска&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Можно ли зашифровать загрузочный сектор диска:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Загрузочный сектор&#34; srcset=&#34;
+               /project/external-project/3.1/1_hu1aae5205ced4db47071da8b9bc06a8db_262618_b33e98288b286ce5fcfde740cedc7e4f.webp 400w,
+               /project/external-project/3.1/1_hu1aae5205ced4db47071da8b9bc06a8db_262618_70d48b6f1c98655b76213e5b36e5e6b1.webp 760w,
+               /project/external-project/3.1/1_hu1aae5205ced4db47071da8b9bc06a8db_262618_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.1/1_hu1aae5205ced4db47071da8b9bc06a8db_262618_b33e98288b286ce5fcfde740cedc7e4f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Как было сказано в лекции, шифровать можно не только жесткий диск, где мы храним файлы, можно шифровать и загрузочный сектор диска. Это тот сектор, который включается сразу после того, как мы стартовали компьютер. Компьютер считывает данные в сегменте, который хранит у себя загрузочные файлы операционной системы, и мы получаем либо свой рабочий стол, либо запрос на авторизацию для доступа к нашему рабочему столу. Вот для того, чтобы зашифровать загрузочный сектор, мы тоже можем использовать методы шифрования. В этом случае вас попросят ввести ключ или скорее даже пароль к этому ключу при самом запуске компьютера.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Шифрование диска основано на:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Шифрование диска&#34; srcset=&#34;
+               /project/external-project/3.1/2_hu6a6e3293643f3090d640703255dd1a88_272603_eb99062f596dc33eb1423ae957075c25.webp 400w,
+               /project/external-project/3.1/2_hu6a6e3293643f3090d640703255dd1a88_272603_4ff133cb6ee3e94d0c9aac1eb58e3f78.webp 760w,
+               /project/external-project/3.1/2_hu6a6e3293643f3090d640703255dd1a88_272603_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.1/2_hu6a6e3293643f3090d640703255dd1a88_272603_eb99062f596dc33eb1423ae957075c25.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Шифрование больших объемов данных, например, жесткого диска или сегмента жесткого диска или какой-то большой флешки, осуществляется с помощью симметричного шифрования, как правило, алгоритма AES. Это американский стандарт симметричного шифрования, он также используется для конфиденциальной передачи данных по сети. Это эффективный алгоритм, который реализован в процессорах быстро, то есть на аппаратном уровне. Благодаря тому, что это хороший алгоритм, пользователь практически не наблюдает задержек в работе, то есть данные шифруются-дешифруются быстро. Как правило, это происходит на заднем фоне, мы можем при этом работать на компьютере, будут происходить какие-то параллельные операции на шифрование и дешифрование.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;С помощью каких программ можно зашифровать жесткий диск:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Пример программ&#34; srcset=&#34;
+               /project/external-project/3.1/3_huf60dc6d56bd5110286db2f9392724fd9_284496_85ddcfaec2eafd06215b556b43100ddf.webp 400w,
+               /project/external-project/3.1/3_huf60dc6d56bd5110286db2f9392724fd9_284496_9b8f6521e4ce49e931933d1536a98aa4.webp 760w,
+               /project/external-project/3.1/3_huf60dc6d56bd5110286db2f9392724fd9_284496_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.1/3_huf60dc6d56bd5110286db2f9392724fd9_284496_85ddcfaec2eafd06215b556b43100ddf.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Во всех популярных операционных системах есть встроенные утилиты, которые позволяют шифровать жесткий диск: для Windows этo Bitlocker, в Linux – LUKS, в MacOS – это FileVault. Кроме того, есть и сторонние опенсорсные (open source) программы, то есть бесплатные: это Veracrypt, PGPDisk, которые вы можете установить себе и использовать их для шифрования ваших жестких дисков, загрузочных секторов или флешек.&lt;/p&gt;
+&lt;h2 id=&#34;пароли&#34;&gt;Пароли&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Какие пароли можно отнести с стойкими:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Примеры надежных паролей&#34; srcset=&#34;
+               /project/external-project/3.2/1_hu634859ef4a473b46967b6172365b7291_266659_76bc9f15767763de777a182bd795a866.webp 400w,
+               /project/external-project/3.2/1_hu634859ef4a473b46967b6172365b7291_266659_c1ddb635b54ae70f351c11d49b997bba.webp 760w,
+               /project/external-project/3.2/1_hu634859ef4a473b46967b6172365b7291_266659_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.2/1_hu634859ef4a473b46967b6172365b7291_266659_76bc9f15767763de777a182bd795a866.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Основной критерий стойкости пароля - это сложность его перебора. Самая основная атака на наши пароли - это банальный перебор всевозможных паролей. Например, если мы возьмем пароли длины 6, которые состоят только из цифр от 0 до 9, то множество всех таких паролей будет содержать в себе 106, то есть один миллион элементов, и это множество перебирается на самом простом, недорогом ноутбуке за секунду в сегодняшних возможностях. Важно то, что, если мы будем увеличивать длину пароля, допустим, возьмем не 6, а 10, и опять рассмотрим только цифры, мы получим с вами 1010 всевозможных паролей, это 10 миллиардов паролей. Это уже больше, для этого нам потребуются более серьёзные мощности, нежели домашний лаптоп, однако это все равно вполне себе перебираемое множество, на которое мы просто потратим не секунду, а, например, часы или дни, в зависимости от оборудования. Важно то, что, если мы с вами перейдем от цифр к буквам, например, возьмём латинский алфавит, даже только нижний регистр, маленькие буквы, то мы значительно увеличим мощность всевозможных паролей длины 8. Если у нас есть 10 цифр и 26 букв алфавита, то мы получим 368 всевозможных паролей для перебора, это уже почти 3 триллиона паролей, и перебор вот такого множества уже становится практически не реализуем, для этого нужно действительно очень много машин соединить, очень большие мощности, и вот такой пароль считается уже относительно безопасным. Естественно, если мы с вами добавим в эти 8 символов еще и 8 слотов для символов и ещё спецсимволы, то мы уже увеличим с вами область перебора до числа, перебор которого на сегодняшний день невыполним. Таким образом, поэтому, когда мы создаем пароль, он всегда автоматически проверяется на стойкость. Проверяется его длина и из какого алфавита он состоит: из цифр, букв нижнего регистра, верхнего регистра и спецсимволов. Как правило, вас просят добавить как минимум один спецсимвол, как минимум одну цифру, как минимум одну букву верхнего регистра, нижнего регистра. Это все сделано для того, чтобы сложность перебора вашего пароля была большой.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Где безопасно хранить пароли:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Пароли&#34; srcset=&#34;
+               /project/external-project/3.2/2_hu25885d42e7dfc186efe4607c54f0f2af_274810_5628e91a394dbc36bb274c3f1ff73209.webp 400w,
+               /project/external-project/3.2/2_hu25885d42e7dfc186efe4607c54f0f2af_274810_3759744e91b0f550d90b5eb8ac4362cb.webp 760w,
+               /project/external-project/3.2/2_hu25885d42e7dfc186efe4607c54f0f2af_274810_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.2/2_hu25885d42e7dfc186efe4607c54f0f2af_274810_5628e91a394dbc36bb274c3f1ff73209.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Перейдем к тому, как хранить пароли на компьютере. Мы уже договорились, что пароли должны быть длинные, длинные пароли сложно запомнить. Поэтому корректно хранить свои ключи в хранилище паролей. Хранилища у нас есть на разных операционных системах. Я привела в пример KeepassXC, по-моему, он кроссплатформенный, он есть и на Linux, на Windows; на Mac есть Keychain Access, это утилита, которая хранит пароли. И если у вас есть такое хранилище паролей, достаточно запомнить мастер-ключ, мастер-пароль от этого самого хранилища, и когда вы получите доступ к своему хранилищу, вы можете посмотреть все свои длинные безопасные пароли к разным сервисам, запоминая только один хороший пароль.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Зачем нужна капча:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Капча&#34; srcset=&#34;
+               /project/external-project/3.2/3_hu68a074522e8dd2c6a182417326177376_281477_0785f1bf08f4138e7ad3e3447ac78cd1.webp 400w,
+               /project/external-project/3.2/3_hu68a074522e8dd2c6a182417326177376_281477_189254c282fbe87f0966390df6646b7c.webp 760w,
+               /project/external-project/3.2/3_hu68a074522e8dd2c6a182417326177376_281477_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.2/3_hu68a074522e8dd2c6a182417326177376_281477_0785f1bf08f4138e7ad3e3447ac78cd1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Капча - это аббревиатура с английского; это тест для определения, является ли пользователь, который общается с веб-сервисом, человеком или компьютером, ботом, которой пытается просто-напросто перебрать все пароли. После того, как мы ввели имя пользователя и пароль, часто помимо этого нас еще какой-то веб-сайт спрашивает какой-то тест, в котором мы должны там увидеть какие-то плохо написанные буквы или символы, и цель этого - отличить нас от компьютера, который пытается автоматически перебрать пароли конкретного пользователя или даже в сумме пользователя и пароля, просто пусть какой-то доступ к ресурсу.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Для чего применяется хэширование паролей:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Хэширование&#34; srcset=&#34;
+               /project/external-project/3.2/4_hu8b0a21e0a47cdf487b0f6dda7ff66c7b_158180_2394c16e95976b3113af56f852de0a9e.webp 400w,
+               /project/external-project/3.2/4_hu8b0a21e0a47cdf487b0f6dda7ff66c7b_158180_92f4fec13943c01ba9751b319ebdc56b.webp 760w,
+               /project/external-project/3.2/4_hu8b0a21e0a47cdf487b0f6dda7ff66c7b_158180_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.2/4_hu8b0a21e0a47cdf487b0f6dda7ff66c7b_158180_2394c16e95976b3113af56f852de0a9e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Что такое хэш? Хэш произошло от английского to hash – перемалывать, работать мясорубкой, то есть это преобразование какого-то числа информации в какую-то другую информацию. В частности, хэш-функция - эта функция, которая берет на вход любую строку битовую и преобразует ее в строку фиксированной длины, то есть она сжимает её. Есть разные типы хэш-функций, важное свойство конкретно криптографический хэш-функции заключается в том, что, во-первых, она эффективна, то есть она считается буквально за миллисекунды; во-вторых, получив на вход произвольные данные, будь то pdf-файл, будь то какой-то сектор жесткого диска, эта функция выдаст нам независимо от входа какое-то фиксированное число бит. И важное свойство этого фиксированного числа бит - выходные биты не должны никаким образом видимо зависеть от входного числа бит. Основная идея хэш-функция состоит в том, что, имея выход хэш-функции, сложно найти входные данные. Если говорить более строгим математическим языком, если мы имеем образ хэш-функции (то есть выход хэш-функции), сложно найти прообраз хэш-функции, то есть вход, который привёл к этому выходу.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Поможет ли соль для улучшения стойкости паролей к атаке перебором, если злоумышленник получил доступ к серверу:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Соль&#34; srcset=&#34;
+               /project/external-project/3.2/5_hud37288063384e1a54e53777441cd7ae6_150773_86bdc342f7aa27830d29d12576d3ee7a.webp 400w,
+               /project/external-project/3.2/5_hud37288063384e1a54e53777441cd7ae6_150773_0aa5dff002480bdabbf5e89868ac45ae.webp 760w,
+               /project/external-project/3.2/5_hud37288063384e1a54e53777441cd7ae6_150773_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.2/5_hud37288063384e1a54e53777441cd7ae6_150773_86bdc342f7aa27830d29d12576d3ee7a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Соль используется для того, чтобы увеличить стойкость пароля для пользователей, которые сами не догадались о стойкости своих паролей. Например, если у нас alice логинится с паролем 12345, что делает при этом сервер? Сервер не хочет хранить хэш от пароля 12345, потому что, скорее всего, злоумышленник имеет таблицы с самыми популярными паролями и их хэшами. Какая функция хэш используется в конкретном сервере, все знают. В основном, много серверов используют в своих таблицах SHA2 или SHA3, и, естественно, злоумышленник может для самых частых паролей посчитать эти значения, поэтому хранить хэш от 12345 абсолютно бессмысленно, и так понятно, что это соответствует паролю 12345. Поэтому умный сервер делает следующее: он сам генерирует какой-то действительно хороший пароль или кусочек какого-то пароля, не обязательно, чтобы он был длинный, добавляет эти случайные биты к паролю и хэширует результат. Под словом добавляет я имею в виду, что он приписывает кусочек после самого пароля alice, еще это называется конкатенация строк. Соль - это и есть тот кусочек случайного бита, который генерирует сервер в своей таблице. Следовательно, при доступе злоумышленника к серверу, у него будет доступ и к соли, а следовательно и к паролю, поэтому, соль не поможет для улучшения стойкости паролей к атаке перебором.&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Какие меры защищают от утечек данных атакой перебором:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Меры защиты&#34; srcset=&#34;
+               /project/external-project/3.2/6_huccacabeb23e2c6081c302c099c04756d_288958_3dfc9658b2f96fad758c316c2cd2d42b.webp 400w,
+               /project/external-project/3.2/6_huccacabeb23e2c6081c302c099c04756d_288958_83cf5edf35020399c4c0499449c68fe6.webp 760w,
+               /project/external-project/3.2/6_huccacabeb23e2c6081c302c099c04756d_288958_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.2/6_huccacabeb23e2c6081c302c099c04756d_288958_3dfc9658b2f96fad758c316c2cd2d42b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Все вышеперечисленные пункты смогут защитить аккаунт от утечки данных атакой перебором.&lt;/p&gt;
+&lt;h2 id=&#34;фишинг&#34;&gt;Фишинг&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Какие из следующих ссылок являются фишинговыми:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Ссылки&#34; srcset=&#34;
+               /project/external-project/3.3/1_huc178839611fd0a182ba8872b993c0ee6_292659_30175d2c038fd634bf2758b782f1341e.webp 400w,
+               /project/external-project/3.3/1_huc178839611fd0a182ba8872b993c0ee6_292659_3ed666502e6292ce36f0a52a430db99b.webp 760w,
+               /project/external-project/3.3/1_huc178839611fd0a182ba8872b993c0ee6_292659_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.3/1_huc178839611fd0a182ba8872b993c0ee6_292659_30175d2c038fd634bf2758b782f1341e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Для того, чтобы адресный фишинг сработал, чтобы вас поймали на удочку, вам необходимо всего лишь некорректно с точки зрения безопасности отреагировать на email, который содержит ссылку на какую-то фальшивую страницу. Допустим, вам пришло какое-то письмо с интересной ссылкой vk.club5.ru. Если вы зайдёте по этой ссылке, вы наверняка встретите интернет-страницу, идентичную странице известной соцсети ВКонтакте. Если вы не будете внимательными, захотите внести свои данные аутентификации в это окно и нажмёте «войти», то все ваши данные, которые вы вбили - юзернейм и пароль – естественно, при нажатии на клавишу «войти» не аутентифицируют вас в эту соцсеть, а перешлют эти данные хакеру. При этом сработает какой-то код, который сгенерирует сообщение, отправит его благополучно хакеру, вы при этом ничего не заметите.
+Другой пример фишинга - эта маскировка под известные веб-сайты только с другим доменным именем, начало может быть одинаковое или середина. В примере с vk.com понятно, на какой сервис это ссылается, ну а потом идет какая-то белиберда, которая не имеет ничего общего с реальной ссылкой. Естественно, никакие данные вводить сюда нельзя, но и более того, заметьте, что соединение вот с этим сайтом произошло не по HTTPS протоколу, а по небезопасному HTTP протоколу, это тоже звоночек, потому что с этого сайта лучше побыстрее уйти.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Может ли фишинговый имейл прийти от знакомого адреса:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;имейл&#34; srcset=&#34;
+               /project/external-project/3.3/2_hu4116341e9d2660bd30b7d5cb010fe093_257443_032d7bc79f969a80ba5afa30321dc94f.webp 400w,
+               /project/external-project/3.3/2_hu4116341e9d2660bd30b7d5cb010fe093_257443_1e53d2a7337ddfec235eb166677f7fe6.webp 760w,
+               /project/external-project/3.3/2_hu4116341e9d2660bd30b7d5cb010fe093_257443_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.3/2_hu4116341e9d2660bd30b7d5cb010fe093_257443_032d7bc79f969a80ba5afa30321dc94f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Если вернемся к адресному фишингу имейлов, возникает вопрос, можем ли мы получить вот такое фишинговое письмо от отправителя, которого мы знаем. Наверняка кто-либо из вас уже получал такой спам, и адрес отправителя оказывался адресом человек, которого вы как бы знаете, с которым общаетесь иногда. Это называется email spoofing/спуфинг от английского spoof – подменить. И спуфинг – это глобальный термин атак, есть IP spoofing - это подмена IP-адреса, есть email spoofing - подмена адреса отправителя. Суть состоит в том, что мы получаем фишинговое письмо от якобы знакомого нам человека, а на самом деле отправлено оно было не им. Это работает потому, что классический протокол отправки писем (SMTP) не включает проверку адреса отправителя, и поэтому у нас существуют вот такие надстройки на классический протокол SMTP, которые называются, например SPF (Sender Policy Framework). Это расширение протокола SMTP, которое позволяет получать письма только от некоторого списка авторизованных IP-адресов. Этим занимается, как правило, наш почтовый сервер, но и большинство почтовых серверов, которые позволяют нам регистрировать свои почтовые ящики (Google, Yandex, Mail.ru и другие крупные почтовые сервисы), конечно, позволяют это расширение подключать. Как правило, вместе с этим расширением вдогонку идет другое расширение, оно называется DMARC. Это протокол аутентификации email, он содержит правила, согласно которым сервер либо отправляет, либо блокирует письмо, и этим также заведует наш почтовый сервер.&lt;/p&gt;
+&lt;h2 id=&#34;вирусы-примеры&#34;&gt;Вирусы. Примеры&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Email Спуфинг - это:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Спуфинг&#34; srcset=&#34;
+               /project/external-project/3.4/1_hue15ee805c7c6ce7c5c238f5252c3a6fc_261217_a665d186ab209fe9033b010d78d75588.webp 400w,
+               /project/external-project/3.4/1_hue15ee805c7c6ce7c5c238f5252c3a6fc_261217_1934b409d39274c9407f73bc9d347d68.webp 760w,
+               /project/external-project/3.4/1_hue15ee805c7c6ce7c5c238f5252c3a6fc_261217_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.4/1_hue15ee805c7c6ce7c5c238f5252c3a6fc_261217_a665d186ab209fe9033b010d78d75588.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Ввиду комментария к предыдущему пункту, email спуфинг это подмена адреса отправителя.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Вирус-троян:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Троян&#34; srcset=&#34;
+               /project/external-project/3.4/2_hu50c0b2dfad4b146a7d5be293f6cecc9e_270987_38bc64bab73d5fd1cf63e20cb2d63b41.webp 400w,
+               /project/external-project/3.4/2_hu50c0b2dfad4b146a7d5be293f6cecc9e_270987_75944aea546610ae5284eae5d6e56dc9.webp 760w,
+               /project/external-project/3.4/2_hu50c0b2dfad4b146a7d5be293f6cecc9e_270987_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.4/2_hu50c0b2dfad4b146a7d5be293f6cecc9e_270987_38bc64bab73d5fd1cf63e20cb2d63b41.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Троян - это вирус, который проникает в систему под видом какого-то легитимного программного обеспечения, это аллюзия к троянскому коню.&lt;/p&gt;
+&lt;h2 id=&#34;безопасность-мессендеров&#34;&gt;Безопасность мессендеров&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;На каком этапе формируется ключ шифрования в протоколе мессенджеров Signal:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Signal&#34; srcset=&#34;
+               /project/external-project/3.5/1_hu68e22241c94e9e94a599b3225a1d4171_269926_135ca5179126a0d6141f5cd9aac881e7.webp 400w,
+               /project/external-project/3.5/1_hu68e22241c94e9e94a599b3225a1d4171_269926_c9d1a1815cec6ca342d1f98c581c45b9.webp 760w,
+               /project/external-project/3.5/1_hu68e22241c94e9e94a599b3225a1d4171_269926_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.5/1_hu68e22241c94e9e94a599b3225a1d4171_269926_135ca5179126a0d6141f5cd9aac881e7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Сквозное шифрование в протоколах Signal реализовано в двух больших шагах: это те же самые шаги, которые мы с вами уже встречали в протоколе TLS, когда говорили о безопасной коммуникации с веб-сервером. Вначале мы генерируем общий ключ, и уже после с помощью этого общего ключа отправляет сообщение уже зашифрованное под этим общим ключом Бобу. Кроме этого зашифрованного сообщения, она отправляет Бобу свой кусочек открытого ключа, при этом Боб, получив этот кусочек открытого ключа, имея какую-то свою секретную информацию, формирует тот же самый общий ключ, с помощью которого Алиса шифровала сообщение. Получив зашифрованное сообщение и вычислив общий ключ, Боб может уже дешифровать корректно это сообщение.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Суть сквозного шифрования состоит в том, что:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Суть сквозного шифрования&#34; srcset=&#34;
+               /project/external-project/3.5/2_huc39a3e863ebe7957d47172dd1fb33981_285345_b46128e9b78eb43d1e994b7b2497df52.webp 400w,
+               /project/external-project/3.5/2_huc39a3e863ebe7957d47172dd1fb33981_285345_625b261be06dca311adfbd2974ce2367.webp 760w,
+               /project/external-project/3.5/2_huc39a3e863ebe7957d47172dd1fb33981_285345_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/3.5/2_huc39a3e863ebe7957d47172dd1fb33981_285345_b46128e9b78eb43d1e994b7b2497df52.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Суть довольно простая: у нас есть два участника - Алиса и Боб, A и B, и сквозное шифрование заключается в том, что сервер, который передает сообщение, который направляет сообщение от Алисы к Бобу или от Бобу к Алисе, знает только то, куда эти сообщения должны быть направлены, но сообщения он передает в зашифрованном виде, то есть он как бы работает маршрутизатором  сообщений, не зная о том, что он передает. Что происходит, если мы хотим отправить сообщение от Алисы к Бобу? Алиса шифрует свои данные, кладет на сервере шифр-текст с пометкой, что этот шифр-текст предназначен для Боба. Когда Боб заходит в сеть, сервер видит: «Ага, Боб зашел в сеть, надо обновить его сообщение», и отправляет шифр-текст от Алисы. Боб получает этот шифр-текст, дешифрует его, получает сообщение в открытом виде. При этом сервер не знает ни ключ, с помощью которого Алиса шифровала, ни тем более сообщение в открытом виде.&lt;/p&gt;
+&lt;h2 id=&#34;введение-в-криптографию&#34;&gt;Введение в криптографию&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;В асимметричных криптографических примитивах:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Ответ&#34; srcset=&#34;
+               /project/external-project/4.1/1_hu6b4371b3e930fbada1de06a72087ae30_274988_1ac71ac836b44c242e7baa810b5274d5.webp 400w,
+               /project/external-project/4.1/1_hu6b4371b3e930fbada1de06a72087ae30_274988_5852c62feb3f1289098f2d87caf69b85.webp 760w,
+               /project/external-project/4.1/1_hu6b4371b3e930fbada1de06a72087ae30_274988_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.1/1_hu6b4371b3e930fbada1de06a72087ae30_274988_1ac71ac836b44c242e7baa810b5274d5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Определяющее свойство симметричной криптографии состоит в том, что она включает себя протоколы, где две или более стороны имеют общие секретные ключи, поэтому она и называется симметричной. К таким протоколам относят симметричное шифрование и некоторые протоколы аутентификации. Часто симметричный протокол довольно сложно построить, сложно установить потенциальный канал связи, исключительно основываясь на симметричных протоколах, поскольку нам нужно сгенерировать общий секретный ключ, то есть либо как-то физически встретиться с другим человеком и с другим устройством, либо что-то такое сделать, чтобы мы сгенерировали общий секрет. И элегантным решением этого вопроса являются протоколы асимметричной криптографии.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Криптографическая хэш-функция:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;хэш-функция&#34; srcset=&#34;
+               /project/external-project/4.1/2_huc6038f114816113c28a71693415b6de7_285489_7f62dbd42e9475b4f4482d963112cc93.webp 400w,
+               /project/external-project/4.1/2_huc6038f114816113c28a71693415b6de7_285489_4f5911331807224f92c7b80ee9cd5146.webp 760w,
+               /project/external-project/4.1/2_huc6038f114816113c28a71693415b6de7_285489_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.1/2_huc6038f114816113c28a71693415b6de7_285489_7f62dbd42e9475b4f4482d963112cc93.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Криптографическая хэш-функция берет на вход произвольный объем данных, то есть какие-то биты и выдает на выходе фиксированную строку, например длины n. Важно, что, как правило, функция сжимает данные: она берет большой набор данных и выдаёт потом маленькое фиксированное значение. Важное свойство криптографической хэш-функций, то, что делает её криптографической – это стойкость к коллизиям. Что такое коллизия? Коллизия – это два разных входа в хэш-функцию, которые дают одинаковый выход. То есть это две разные строки например x и x’, где x ≠ x’, такие, что значения хэш-функции на них совпадают, то есть h(x) = h(x’). Это важное свойство отличает криптографическую функцию от некриптографической. Можно доказать (мы этого делать с вами не будем), что из этого свойства коллизии следует другое важное свойство, а именно то, что криптографическую хэш-функцию сложно обратить. То есть, если я вам даю какое-то значение этой функции в точке h(x) и спрашиваю вас, как найти x, то есть вход в эту функцию, для современных криптографических хэш-функций это сделать сложно.  Благодаря этим свойствам, криптографические функции широко применяются в коммуникациях, мы с вами в одной из лекций говорили о том, как криптографическую хэш-функцию можно использовать для хранения паролей. Она также используются для протоколов, подтверждающих целостность данных, ну и современное довольно популярное применение хэш-функции – это доказательство работы. По-другому это называется протоколом proof of work, который используется, например, в таком блокчейне, как биткойн.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;К алгоритмам цифровой подписи относятся:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ЦП&#34; srcset=&#34;
+               /project/external-project/4.1/3_huce4626d4bc5fc5f69cad2f585584268c_269779_8adfa42c85bedeca0519ea6eeae624c3.webp 400w,
+               /project/external-project/4.1/3_huce4626d4bc5fc5f69cad2f585584268c_269779_bb401d2de17610d7e65ae4612463725a.webp 760w,
+               /project/external-project/4.1/3_huce4626d4bc5fc5f69cad2f585584268c_269779_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.1/3_huce4626d4bc5fc5f69cad2f585584268c_269779_8adfa42c85bedeca0519ea6eeae624c3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;К примерам цифровой подписи относятся интернет-сертификаты, подпись RSA, американский стандарт ECDSA и отечественный стандарт ГОСТ стандарт P 34.20.2012.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Код аутентификации сообщения относится к:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ответ&#34; srcset=&#34;
+               /project/external-project/4.1/4_hu7532f0bb67f2ef811e9883bd6986b67d_255415_cc8e5c27fe1b47da58080635d10aa390.webp 400w,
+               /project/external-project/4.1/4_hu7532f0bb67f2ef811e9883bd6986b67d_255415_0e37ef0d6adc38ad9ce4dddaaf9809ae.webp 760w,
+               /project/external-project/4.1/4_hu7532f0bb67f2ef811e9883bd6986b67d_255415_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.1/4_hu7532f0bb67f2ef811e9883bd6986b67d_255415_cc8e5c27fe1b47da58080635d10aa390.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Если мы будем двигаться дальше, то симметричное шифрование можно проапгрейдить до симметричного шифрования с аутентификацией. Это означает, что к шифр-тексту, который мы сгенерировали с помощью ключа для какого-то сообщения, мы еще добавляем код аутентификации сообщения. Это также симметричный примитив, который берет на вход какой-то ключ (это должен быть другой ключ, не тот, с которого мы шифровали) и сообщение и выдает код аутентификации сообщения. Корректно об этом примитиве думать, как о симметричной версии подписи. Как правило, код аутентификации сообщения строится с помощью хэш-функции или симметричного шифрования.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Обмен ключами Диффи-Хэллмана - это:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Диффи-Хэллман&#34; srcset=&#34;
+               /project/external-project/4.1/5_hua4735b02c7fd6c1a56b84866028dbafd_275749_a17210e2a9a09a81ff9840318a451789.webp 400w,
+               /project/external-project/4.1/5_hua4735b02c7fd6c1a56b84866028dbafd_275749_4ab2b89ecdb95e3b74d98713717065fb.webp 760w,
+               /project/external-project/4.1/5_hua4735b02c7fd6c1a56b84866028dbafd_275749_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.1/5_hua4735b02c7fd6c1a56b84866028dbafd_275749_a17210e2a9a09a81ff9840318a451789.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Самым популярным примером протокола обмена ключами является протокол Диффи-Хэллмана, как раз он, либо его модификации используются в современных мессенджерах и в протоколе TLS для того, чтобы мы смогли сгенерировать общий секретный ключ и дальше шифровать наши данные с помощью симметричного алгоритма, то есть с помощью ключа skAB. Если реализовать генерацию общего ключа так, как она описана у Диффи-Хэллмана, мы получим довольно слабый протокол, нестойкий к активным злоумышленникам. Сделать этот протокол стойким к активным злоумышленникам помогает цифровая подпись.&lt;/p&gt;
+&lt;h2 id=&#34;цифровая-подпись&#34;&gt;Цифровая подпись&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Протокол электронной цифровой подписи относится к:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ответ&#34; srcset=&#34;
+               /project/external-project/4.2/1_hu360e15d90838dfdcf5ebdbc382109644_259818_1b7a4825decbf147a28be34f5c60144e.webp 400w,
+               /project/external-project/4.2/1_hu360e15d90838dfdcf5ebdbc382109644_259818_34c09bf49095047272259dd6b90d71c2.webp 760w,
+               /project/external-project/4.2/1_hu360e15d90838dfdcf5ebdbc382109644_259818_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.2/1_hu360e15d90838dfdcf5ebdbc382109644_259818_1b7a4825decbf147a28be34f5c60144e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Люди, которые занимаются разработкой программного обеспечения, с выходом каждого нового обновления или с выходом самой первой версии программы обязательно подписывают программный код. Например, если вы хотите обновить свою операционную систему, допустим, Ubuntu, у организации программистов, которые выпустили обновление, есть пара ключей – это публичный ключ pkU и секретный ключ skU. Секретный ключ они держат в секрете, публичный ключ знают все. И когда они выпускают обновление, они его подписывают с помощью своего секретного ключа.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Алгоритм верификации электронной цифровой подписи требует на вход:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Алгоритм&#34; srcset=&#34;
+               /project/external-project/4.2/2_huf3f58567b150c5fb4b83052ac643d0b1_272326_c2a81aa1db9817ca40fefc6a7633b181.webp 400w,
+               /project/external-project/4.2/2_huf3f58567b150c5fb4b83052ac643d0b1_272326_f8359f045fb7fb9ff509427dad7f3b98.webp 760w,
+               /project/external-project/4.2/2_huf3f58567b150c5fb4b83052ac643d0b1_272326_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.2/2_huf3f58567b150c5fb4b83052ac643d0b1_272326_c2a81aa1db9817ca40fefc6a7633b181.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Алгоритм подписи Sign берет на вход секретный ключ и обновление, например, программный код и выдает подпись σ. Обновление вместе с подписью скачивается всеми пользователями, и, прежде чем установить это обновление, ваш компьютер проверяет, действительно ли это обновление пришло от тех программистов, от которых мы ожидаем это обновление, что это не поддельный софт. То есть каждая машина запускает процедуру Verify, которая берет на вход само обновление, подпись и открытый ключ разработчика, и в случае если верификация прошла успешно, мы можем установить это обновление.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Электронная цифровая подпись не обеспечивает:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ЦП&#34; srcset=&#34;
+               /project/external-project/4.2/3_hubabff2dd0c005dff85b41f84b1f586dc_265835_ca7ba3d389299cb986db0d7eb9751b26.webp 400w,
+               /project/external-project/4.2/3_hubabff2dd0c005dff85b41f84b1f586dc_265835_1a17fda3eaef06f9a631e41f6d6b87ed.webp 760w,
+               /project/external-project/4.2/3_hubabff2dd0c005dff85b41f84b1f586dc_265835_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.2/3_hubabff2dd0c005dff85b41f84b1f586dc_265835_ca7ba3d389299cb986db0d7eb9751b26.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;В алгоритме подготовки и верификации цифровой подписи участвуют как минимум 3 узла, поэтому, о конфиденциальности говорить сложно.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Какой тип сертификата электронной подписи понадобится для отправки налоговой отчетности в ФНС:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Сертификат&#34; srcset=&#34;
+               /project/external-project/4.2/4_hu7b6ceeca7bc0b2db77b31230c42fdce5_260005_ea723c55379b26766ed48da8d26d9b44.webp 400w,
+               /project/external-project/4.2/4_hu7b6ceeca7bc0b2db77b31230c42fdce5_260005_50d97d3deabb63f30b9e6c9fb0c68d86.webp 760w,
+               /project/external-project/4.2/4_hu7b6ceeca7bc0b2db77b31230c42fdce5_260005_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.2/4_hu7b6ceeca7bc0b2db77b31230c42fdce5_260005_ea723c55379b26766ed48da8d26d9b44.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Существует три различных точки зрения на подписи: простая, усиленная неквалифицированая и усиленная квалифицированная. Первые два типа не имеет юридической силы или она довольно ограничена, но их можно сгенерировать у себя на компьютере. Простую мы генерируем с помощью пароля, PIN-кода, такая простая подпись может быть использована для авторизации на сайтах. Усиленная неквалифицированная подпись может быть подтверждена сертификатом, который вы сами же можете и выпустить, то есть кроме того, что вы выпускаете свою пару секретных ключей, вы можете сами их сертифицировать. Такая подпись может быть использована в коммерческом документообороте в небольших негосударственных структурах. А вот что касается усиленной квалифицированной подписи, эта подпись уже имеет юридическую силу, она, как правило, равнозначна рукописной. Для того, чтобы получить такую подпись, вам нужно пойти со своим паспортом и с другими данными в сертификационный центр, который должен быть аккредитован конкретным министерством. Такие подписи используются на Госуслугах, в государственном документообороте. Подробнее об этом написано в федеральном законе № 63.&lt;/p&gt;
+&lt;h2 id=&#34;электронные-платежи&#34;&gt;Электронные платежи&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Выберите из списка все платежные системы:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ПС&#34; srcset=&#34;
+               /project/external-project/4.3/1_hu88ae4531c9acd7d78bdd83f520036d63_265946_d5906bd350d775bd5c1934f3c7946b69.webp 400w,
+               /project/external-project/4.3/1_hu88ae4531c9acd7d78bdd83f520036d63_265946_e7406e12579ebe7dc2d33d664e264711.webp 760w,
+               /project/external-project/4.3/1_hu88ae4531c9acd7d78bdd83f520036d63_265946_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.3/1_hu88ae4531c9acd7d78bdd83f520036d63_265946_d5906bd350d775bd5c1934f3c7946b69.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Из всех перечисленных вариантов, только MasterCard и МИР являются платежными системами. Также есть, например, VISA.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Примером многофакторной аутентификации является:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;МА&#34; srcset=&#34;
+               /project/external-project/4.3/2_hu798e02834e73996094f530b042b8d482_281598_63441528ec064b519375790b31ad38f9.webp 400w,
+               /project/external-project/4.3/2_hu798e02834e73996094f530b042b8d482_281598_783b00e6ff327cf69d36b34a5a9c71ef.webp 760w,
+               /project/external-project/4.3/2_hu798e02834e73996094f530b042b8d482_281598_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.3/2_hu798e02834e73996094f530b042b8d482_281598_63441528ec064b519375790b31ad38f9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Многократная аутентификация заключается в том, что мы доказываем в ходе этого протокола несколько вещей есть. Основные категории вещей, которые мы можем доказать: 1) то, что я знаю – это либо пароль, либо PIN-код, либо в случае онлайн-платежей это секретный код, 2) конкретно в онлайн-платежах мы еще используем второй фактор – это то, чем я владею, например, телефон, именно поэтому нам часто приходит код, который вы должны подтвердить или вбить в ваш браузер, 3) другой фактор аутентификации – это свойства, например, биометрия, опечаток пальца, сетчатки глаза, 4) четвертый фактор аутентификации – локация. Способ аутентификации, как правило, выбирается банком.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;При онлайн платежах сегодня используется:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Онлайн платежи&#34; srcset=&#34;
+               /project/external-project/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_b70780f9dbf3aada180036b60c8be433.webp 400w,
+               /project/external-project/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_65d4f4b1d88c241f988f84fcdcb39e9c.webp 760w,
+               /project/external-project/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_b70780f9dbf3aada180036b60c8be433.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Сейчас однофакторная аутентификация покупателя практически не используется, так как не имеет той степени безопасности, и в многофакторной аутентификации - подтверждать, что именно вы совершаете платеж необходимо банку-эмитенту.&lt;/p&gt;
+&lt;h2 id=&#34;блокчейн&#34;&gt;Блокчейн&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Какое свойство криптографической хэш-функции используется в доказательстве работы:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;свойство хэш-функции&#34; srcset=&#34;
+               /project/external-project/4.4/1_hu2bd516dea219fed0f82ca6a8e8deaad1_268542_c028f24c65c32d70497aab0a2e141af9.webp 400w,
+               /project/external-project/4.4/1_hu2bd516dea219fed0f82ca6a8e8deaad1_268542_80dada91d9217bfcf2891c92a51030fa.webp 760w,
+               /project/external-project/4.4/1_hu2bd516dea219fed0f82ca6a8e8deaad1_268542_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.4/1_hu2bd516dea219fed0f82ca6a8e8deaad1_268542_c028f24c65c32d70497aab0a2e141af9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Хэш-функция - это функция, которая берет на вход любые данные и выдает за какое-то быстрое время фиксированное число бит. И задача майнера в доказательстве работы - это отыскать такой вход в хэш-функцию, что ее значение имеет определенный паттерн, иными словами, отыскать такой x, что h(x) имеет, например, 17 первых нулей или 17 первых единиц, это неважно. В биткоине используют 18 или 19 первых нулей. Это число на самом деле может быть модифицировано относительно производительности сети в тот или иной момент времени. Оно примерно находится в районе в 17-19. Почему эта задача сложная? Потому что мы знаем, что для криптографической хэш-функции неизвестно на сегодняшний день атаки быстрее, чем перебором для конкретно этой задачи. Если я вам даю какую-то хэш-функцию, например, SHA-3 или ГОСТ и прошу мне найти такой x, что h(x) содержит 17 первых нулей, и все, что вы будете делать - это перебирать разные x, смотреть на их выход и проверять, действительно ли выходное значение содержит 17 первых нулей или нет. Таким образом, ожидаемое число различных входных данных x, которое нам необходимо перебрать, пока мы не найдем нужный паттерн, примерно равно 217.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Консенсус в некоторых системах блокчейн обладает свойствами:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;консенсус&#34; srcset=&#34;
+               /project/external-project/4.3/2_hu798e02834e73996094f530b042b8d482_281598_63441528ec064b519375790b31ad38f9.webp 400w,
+               /project/external-project/4.3/2_hu798e02834e73996094f530b042b8d482_281598_783b00e6ff327cf69d36b34a5a9c71ef.webp 760w,
+               /project/external-project/4.3/2_hu798e02834e73996094f530b042b8d482_281598_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.3/2_hu798e02834e73996094f530b042b8d482_281598_63441528ec064b519375790b31ad38f9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;В основе любого блокчейна, в частности биткоина, лежит консенсус – соглашение, в терминах криптовалют консенсус - это некая публичная структура данных или ledger (переводится с английского как «бухгалтерская книга»), где просто содержится история всех переводов, хранится список того, кто что кому заплатил, в какое время. Почему консенсус? Потому что эта публичная структура, и бухгалтерский учет должен обеспечивать четыре основных свойства. Первое - это постоянство, то есть когда-либо добавленНые данные не должны быть удалены из этой структуры. Второе - это сам консенсус, то есть все участники видят одни и те же данные и соглашаются с одним и теми же данными, исключением могут быть последние пары блоков, то есть последние изменения в этом блокчейне, в этой публичной структуре данных. Третье - это живучесть, это означает, что мы можем добавлять новые транзакции, когда хотим, мы можем осуществлять платежи, когда хотим. И последнее четвертое свойство - это открытость, то есть любой человек может быть участником блокчейна. Это справедливо не для всех блокчейнов, для биткоина это справедливо.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Секретные ключи какого криптографического примитива хранят участники блокчейна:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;примитив&#34; srcset=&#34;
+               /project/external-project/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_b70780f9dbf3aada180036b60c8be433.webp 400w,
+               /project/external-project/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_65d4f4b1d88c241f988f84fcdcb39e9c.webp 760w,
+               /project/external-project/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/external-project/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_b70780f9dbf3aada180036b60c8be433.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Допустим, у нас вами есть в блокчейне 3 участника, которые обмениваются друг с другом транзакциями. Важно то, что у каждого участника есть свой секретный ключ, и своим секретным ключом мы всегда будем подтверждать какую-то транзакцию. Важно то, что этот ключ у нас секретный, мы его используем для подписи. Подпись – это и есть подтверждение моей транзакции. Мы с вами разбирали в одной из лекций, как работает электронная цифровая подпись, у этого примитива есть секретный и открытый ключи, и наш секретный ключ - это то, что позволяет нам совершать транзакции от нашего лица. То есть, если мы говорим, что мы в транзакции переводим 10 единиц денег какому-то человеку и подписываем эту транзакцию, это не может сделать никто, кроме нас, поскольку у нас есть секретный ключ. Допустим, у нас есть три участника сети, которые осуществили 3 какие-то транзакции и подписали их: первый со своим секретным ключом, второй - со своим и третий – со своим. Эти три транзакции формируются в один блок. Этот блок должен быть каким-то образом добавлен в сеть блокчейн. Кто из майнеров будет добавлять этот блок, решает как раз таки протокол консенсуса. Допустим, протокол выбрал верхнего майнера (мы далее поговорим, что это за протокол и что майнер должен сделать для того, чтобы быть выбранным), этот майнер формирует из трех транзакций блок, проверяет, что все там корректно, и добавляет этот блок в сеть. За это он получает награду: как только он совершил какую-то работу, то есть добавил блок в блокчейн, он получает некую награду за майнинг, состоящую из тех денег, которые добавляют вот эти три участника, которые инициировали транзакции.&lt;/p&gt;
+&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
+&lt;p&gt;В ходе работы мы изучили, как работают интернет протоколы, что такое персонализация сети, как работает анонимизирование в интернете, что такое луковая маршрутизация и как работают беспроводные сети Wi-fi, что такое шифрование диска и как оно происходит, какой пароль лучше поставить и как обезопасить себя от утечки данных атакой перебором, что такое фишинг и спуфинг, а также изучили безопасность в мессенджерах, что такое криптография, цифровая подпись, как происходят электронные платежи и что такое блокчейн.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Внешний курс по информационной безопасности</title>
+      <link>https://example.com/project/new_proj/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/new_proj/</guid>
+      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
+&lt;p&gt;Цель данного курса - узнать, как обеспечивается безопасность интернет-трафика, какие пароли нужно выбирать и как их хранить, познакомиться с методами защиты сообщений в мессенджерах (WhatsApp, Telegram), понять, как работают механизмы аунтефикации в электронных платежах, а также зачем нас иногда просят выбрать квадраты, где изображены светофоры.&lt;/p&gt;
+&lt;h1 id=&#34;выполнение&#34;&gt;Выполнение&lt;/h1&gt;
+&lt;h2 id=&#34;как-работает-интернет-базовые-сетевые-протоколы&#34;&gt;Как работает интернет: базовые сетевые протоколы&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Выберите протокол прикладного уровня:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;HTTPS&#34; srcset=&#34;
+               /project/new_proj/2.1/1_hud7733b3168071ca240422d895419277f_263040_db671e5d7fd704b6e608d45c7856bcf3.webp 400w,
+               /project/new_proj/2.1/1_hud7733b3168071ca240422d895419277f_263040_537c97c0d65bffd5f7d62073c1de5321.webp 760w,
+               /project/new_proj/2.1/1_hud7733b3168071ca240422d895419277f_263040_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.1/1_hud7733b3168071ca240422d895419277f_263040_db671e5d7fd704b6e608d45c7856bcf3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Среди всех представленных TCP, UDP - протоколы транспортного уровня, а IP - сетевого. Протокол прикладного уровня здесь только один - HTTPS.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;На каком уровне работает протокол &lt;code&gt;TCP&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Ответ&#34; srcset=&#34;
+               /project/new_proj/2.1/2_hu9eb9573b9024594832ce1592679c932b_268388_39cdf0250edd9fb56e540a61b7c4c9e7.webp 400w,
+               /project/new_proj/2.1/2_hu9eb9573b9024594832ce1592679c932b_268388_9a20e66ea5e57443ed75fdb26c0fa577.webp 760w,
+               /project/new_proj/2.1/2_hu9eb9573b9024594832ce1592679c932b_268388_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.1/2_hu9eb9573b9024594832ce1592679c932b_268388_39cdf0250edd9fb56e540a61b7c4c9e7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Протокол TCP работает на &lt;em&gt;транспортном&lt;/em&gt; уровне.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Выберите все корректные адреса &lt;code&gt;IPv4&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Адреса&#34; srcset=&#34;
+               /project/new_proj/2.1/3_hu8a55b8f714cf2ba9ecf835f22f61636b_277287_daf5b72eaa8763cfde9144202b0764ae.webp 400w,
+               /project/new_proj/2.1/3_hu8a55b8f714cf2ba9ecf835f22f61636b_277287_7cbb0697c8dbb6c6cd4af1caa19e0e91.webp 760w,
+               /project/new_proj/2.1/3_hu8a55b8f714cf2ba9ecf835f22f61636b_277287_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.1/3_hu8a55b8f714cf2ba9ecf835f22f61636b_277287_daf5b72eaa8763cfde9144202b0764ae.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Существуют две версии адресации в протоколе IP. Популярный на сегодняшний день - это версия 4 адресации (IPv4), и этот адрес состоит из большего набора чисел, нежели порт в TCP протоколе, а именно это 4 числа от 0 до 255. Например, адрес IPv4 может выглядеть вот так: 192.168.1.4. Соответсвенно, все числа, которые &amp;gt;255 не подходят.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Что делает &lt;code&gt;DNS&lt;/code&gt; сервер:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;DNS&#34; srcset=&#34;
+               /project/new_proj/2.1/4_hu1921e8cd002fadeb8ffc659bb328f3e3_274237_43bdd9e9b93aaa654d94075cd74393a8.webp 400w,
+               /project/new_proj/2.1/4_hu1921e8cd002fadeb8ffc659bb328f3e3_274237_c65656b0dfb4a3867059463b9d930087.webp 760w,
+               /project/new_proj/2.1/4_hu1921e8cd002fadeb8ffc659bb328f3e3_274237_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.1/4_hu1921e8cd002fadeb8ffc659bb328f3e3_274237_43bdd9e9b93aaa654d94075cd74393a8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Oсновная задача DNS-сервера - это сопоставить название, то есть доменное имя, с корректным IP-адресом, с тем, где лежит этот сервер, этот сайт. Когда это сопоставление прошло (то есть я знаю, что yandex.ru находится по такому IP-адресу), дальше в сети сегмент моих данных передается по транзитным узлам или маршрутизаторам.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Выберите корректную последовательность протоколов модели &lt;code&gt;TCP/IP&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;TCP/IP&#34; srcset=&#34;
+               /project/new_proj/2.1/5_huf4ea121bd41eaae8422e0d2747ce9988_289508_c3e9cd75da72a7367e74fd3282e62c36.webp 400w,
+               /project/new_proj/2.1/5_huf4ea121bd41eaae8422e0d2747ce9988_289508_1318fe4866eea4ea0989d30f07809867.webp 760w,
+               /project/new_proj/2.1/5_huf4ea121bd41eaae8422e0d2747ce9988_289508_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.1/5_huf4ea121bd41eaae8422e0d2747ce9988_289508_c3e9cd75da72a7367e74fd3282e62c36.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;В модели TCP/IP существует несколько уровней, а именно 4. На самом верхнем уровне, прикладном работают пользовательские программы, и задача прикладного уровня - обеспечить доступ для этих пользовательских программ к услугам Интернет. Все эти протоколы прикладного уровня работают над транспортным уровнем, это следующий уровень в модели TCP/IP. Транспортный уровень обеспечивает передачу данных между процессами на одной машине или хосте (host). Хост - это устройство, которое подключено к интернету. Это может быть компьютер, смартфон. И транспортный уровень отвечает за корректное распределение пакетов между программами. Транспортный уровень работает над следующим уровнем модели TCP, так называемым сетевым или межсетевым уровнем. В этом уровне принимает участие не только программа, не только наша машина, но уже наш роутер, то есть то устройство, к которому мы подключаемся, чтобы получить интернет. Сетевой уровень ответственен за передачу данных между различными физическими сетями. Сетевой уровень работает над так называемым канальным уровнем или самым низким уровнем модели TCP/IP. И в этой модели работает уже физика. Здесь происходит физическая передача данных. И здесь мы уже будем говорить о пропускной способности канала, об обеспечении помехоустойчивости, и основные примеры протоколов канального уровня непосредственно связаны с тем, как мы передаем данные.&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Протокол &lt;code&gt;http&lt;/code&gt; предполагает:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;HTTP&#34; srcset=&#34;
+               /project/new_proj/2.1/6_hu028da08cb4527855af625b83cc630aaf_275177_a34574cdcb135b59d026fc1330aee979.webp 400w,
+               /project/new_proj/2.1/6_hu028da08cb4527855af625b83cc630aaf_275177_5763f85383abc6ec8294ec4d9aef9b9a.webp 760w,
+               /project/new_proj/2.1/6_hu028da08cb4527855af625b83cc630aaf_275177_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.1/6_hu028da08cb4527855af625b83cc630aaf_275177_a34574cdcb135b59d026fc1330aee979.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;HTTP-сообщения представляют собой обычный текст, поэтому неавторизованные лица могут легко получить к ним доступ и прочитать их через Интернет. Напротив, HTTPS передает все данные в зашифрованном виде.&lt;/p&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Протокол &lt;code&gt;https&lt;/code&gt; состоит из:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;HTTPS&#34; srcset=&#34;
+               /project/new_proj/2.1/7_hu660866f27580bc87d92b9b283dfaa5cf_292570_c854919e9b6ed49779a737786e62bec6.webp 400w,
+               /project/new_proj/2.1/7_hu660866f27580bc87d92b9b283dfaa5cf_292570_d87048505c631bfbf4bbd4ae5d4adec1.webp 760w,
+               /project/new_proj/2.1/7_hu660866f27580bc87d92b9b283dfaa5cf_292570_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.1/7_hu660866f27580bc87d92b9b283dfaa5cf_292570_c854919e9b6ed49779a737786e62bec6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Протокол https состоит из 2 фаз: фазы рукопожатия и фазы данных. Во время фазы рукопожатия происходит:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;выбор параметров, протоколов&lt;/li&gt;
+&lt;li&gt;аунтефикация&lt;/li&gt;
+&lt;li&gt;формируется общий ключ К&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;В то время как во время фазы передачи данных происходит непосредственно шифрование трафика с помощью ключа К.&lt;/p&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;Версия протокола &lt;code&gt;TLS&lt;/code&gt; определяется:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;TLS&#34; srcset=&#34;
+               /project/new_proj/2.1/8_hu7413dc61994805785f72c59af66ff801_271631_2b0f3adc95b6d544ccacf9ed34c068b1.webp 400w,
+               /project/new_proj/2.1/8_hu7413dc61994805785f72c59af66ff801_271631_4e383aba24132d769792c727952acbeb.webp 760w,
+               /project/new_proj/2.1/8_hu7413dc61994805785f72c59af66ff801_271631_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.1/8_hu7413dc61994805785f72c59af66ff801_271631_2b0f3adc95b6d544ccacf9ed34c068b1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Версия протокола выбирается в фазе рукопожатия при выборе параметров совместно.&lt;/p&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;В фазе &amp;ldquo;рукопожатия&amp;rdquo; протокола &lt;code&gt;TLS&lt;/code&gt; не предусмотрено:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;TLS&#34; srcset=&#34;
+               /project/new_proj/2.1/9_hu7d0ec2871cf35f8050d753baf6d38412_292975_53b9e956a813399227e9f50423b72a09.webp 400w,
+               /project/new_proj/2.1/9_hu7d0ec2871cf35f8050d753baf6d38412_292975_54d9a4e5d734337bdfe774ed2f4876d1.webp 760w,
+               /project/new_proj/2.1/9_hu7d0ec2871cf35f8050d753baf6d38412_292975_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.1/9_hu7d0ec2871cf35f8050d753baf6d38412_292975_53b9e956a813399227e9f50423b72a09.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Шифрование данных происходит в фазе передачи данных.&lt;/p&gt;
+&lt;h2 id=&#34;персонализация-сети&#34;&gt;Персонализация сети&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Куки хранят:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cokkie&#34; srcset=&#34;
+               /project/new_proj/2.2/1_hu47abda1a70b21d1b47d799c9e2619928_274217_10e9221f3ba8e0aeb4ede1fe3a179175.webp 400w,
+               /project/new_proj/2.2/1_hu47abda1a70b21d1b47d799c9e2619928_274217_09044bf301b5f4a2432459fcdba6c4c0.webp 760w,
+               /project/new_proj/2.2/1_hu47abda1a70b21d1b47d799c9e2619928_274217_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.2/1_hu47abda1a70b21d1b47d799c9e2619928_274217_10e9221f3ba8e0aeb4ede1fe3a179175.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Куки, как правило, хранят в себе список параметров и их значений. Этими параметрами могут быть id пользователя, id сессии, иногда описан тип браузера и время запросов и некоторые действия пользователей. Опять же, если это интернет-магазин, то в куки может храниться то, что мы просматривали, какие страницы мы посещали. В куки никогда не хранятся пароли или хэш от паролей пользователя, куки для этого не предназначены и не должны хранить наши пароли.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Куки не используются для:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cokkie&#34; srcset=&#34;
+               /project/new_proj/2.2/2_hu1b263b179db0176bed06b2efb0c28284_275879_410a1c4443e927118a42682e1adab985.webp 400w,
+               /project/new_proj/2.2/2_hu1b263b179db0176bed06b2efb0c28284_275879_bcf9011f3031b4969ca5c811fde92000.webp 760w,
+               /project/new_proj/2.2/2_hu1b263b179db0176bed06b2efb0c28284_275879_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.2/2_hu1b263b179db0176bed06b2efb0c28284_275879_410a1c4443e927118a42682e1adab985.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Куки - это данные, которые передаются от сервера клиенту для его идентификации. Так, например, они сохраняют сессионную информацию. Примером является тот факт, что, когда вы, например, заходите на какой-то интернет-магазин, наполняете корзину каким-то покупками, но не завершайте покупку, а закрываете эту страницу, а потом открываете её когда-нибудь снова, часто получается так, что содержимое корзины запоминается. Кроме этого, куки позволяют персонализировать страницы: например, смена языка страницы, или когда браузер спрашивает, нужно ли перевести эту страницу на русский язык. А если вы попадаете на страницу с финским языком, и вы не часто или почти никогда не смотрите страницы на финском языке, то вас спрашивают, стоит изменить язык на какой-то другой. Кроме того, куки помогают отслеживать действия пользователей в сети. Этим часто пользуются рекламщики. Тоже, наверное, кто-то из вас встречался с такой ситуацией, когда вы покупаете что-то в интернет-магазине или смотрите какой-то товар в магазине, например, лыжи. Вы купили лыжи где-то или хотели купить, смотрели на них, и потом, заходя уже на страницы абсолютно других сайтов, никак не связанных с лыжами, в рекламе, рекламных разделах страницы вы вдруг увидите эти самые лыжи по несколько раз. Это происходит потому, что на первом сайте, где вы смотрели или купили товар, вы получили от этого сайта куки, которые записали ваши пожелания себе. Для разных сайтов эти куки выглядят по-разному, как правило, они содержат сессионный токен, который часто содержит имя пользователя, ну и ещё какие-то данные, которые позволяют этому конкретному серверу авторизовать этот браузер, этого клиента в эту конкретную сессию. Всегда, когда мы обновляем нашу страницу или переходим по каким-то ссылкам, браузер отправляет полученные заранее с этого сайта при первой авторизации куки, и наш браузер ответственен за хранение и управление куки, они у вас на вашей машине лежат. Естественно, куки - это удобно. А представьте себе, если бы каждый раз при нажатии на какую-то ссылку в Сбербанк Онлайн, вы бы заново проходили их двухфакторную аутентификацию. Конечно, это было бы неудобно, и мы делаем это исключительно благодаря тому, что при самой первой аутентификации нам прислал их сервер какие-то cookie.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Куки генерируются:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cokkie&#34; srcset=&#34;
+               /project/new_proj/2.2/3_hua4158ee2e02b85ee38edaeb320bbf8f8_268478_d13ce14494bced1ab79cf837e1f1d63f.webp 400w,
+               /project/new_proj/2.2/3_hua4158ee2e02b85ee38edaeb320bbf8f8_268478_b41d37834eb0df2ab60550728682cf5c.webp 760w,
+               /project/new_proj/2.2/3_hua4158ee2e02b85ee38edaeb320bbf8f8_268478_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.2/3_hua4158ee2e02b85ee38edaeb320bbf8f8_268478_d13ce14494bced1ab79cf837e1f1d63f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Как видно из предыдущего пояснения, куки генерируются при входе на сайт самим сервером и сохраняются на компьютере пользователя.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Сессионные куки хранятся в браузере:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cokkie&#34; srcset=&#34;
+               /project/new_proj/2.2/4_hu98b5da635d0d12951250941fd5833f52_269715_531b7a972ac4e8a0f22b827e2aa1db2b.webp 400w,
+               /project/new_proj/2.2/4_hu98b5da635d0d12951250941fd5833f52_269715_b645f61c42c7ed3e8d421e744ed98195.webp 760w,
+               /project/new_proj/2.2/4_hu98b5da635d0d12951250941fd5833f52_269715_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.2/4_hu98b5da635d0d12951250941fd5833f52_269715_531b7a972ac4e8a0f22b827e2aa1db2b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Куки бывают сессионные; как правило, эти cookies используются при навигации на сайте и удаляются при закрытии окна браузера. То есть мы закрыли какое-то окно, интернет-магазин открыли заново - корзина пуста. Это означает, что в этом сайте, на этом сервере cookies куки сессионные. Ещё они бывают постоянные, как правило, они используются при аутентификации. Постоянные cookies применяются для сбора информации, для статистики посещаемости сайта. Откуда, например, известно, сколько раз вы посетили какой-то сайт - это записывается в куках. Хотя они и называются постоянными, как правило, у всех кук есть срок жизни, и он также записан в ещё одном значении в куках.&lt;/p&gt;
+&lt;h2 id=&#34;браузер-tor-анонимизация&#34;&gt;Браузер TOR. Анонимизация&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Сколько промежуточных узлов в луковой сети TOR:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;TOR&#34; srcset=&#34;
+               /project/new_proj/2.3/1_hudddf3173e9e573c2939edc135a87e8ba_261624_680dfcaeeb5e9f12e5d392fb078a0312.webp 400w,
+               /project/new_proj/2.3/1_hudddf3173e9e573c2939edc135a87e8ba_261624_80553758a4f99bdafc5fd6154bc4cabb.webp 760w,
+               /project/new_proj/2.3/1_hudddf3173e9e573c2939edc135a87e8ba_261624_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.3/1_hudddf3173e9e573c2939edc135a87e8ba_261624_680dfcaeeb5e9f12e5d392fb078a0312.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Узлы разделяются на охранный узел, промежуточный и выходной. Соответственно выходной узел, поскольку он является узлом перед получателем, знает, кому направлен пакет. Охранный узел знает, от кого пришёл пакет, поскольку он непосредственно является следующим узлом после отправителя, в то время как промежуточный узел не знает ни от кого этот пакет, ни кому он предназначен. В браузере Tor всегда есть три роутера, их не больше и не меньше. Их не меньше потому, что меньшего числа узлов не хватает для анонимизации, а большее число узлов не дает большую анонимизацию, поэтому выбирается всегда 3 луковых роутера.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;IP-адрес получателя известен:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;IP&#34; srcset=&#34;
+               /project/new_proj/2.3/2_hu07051afed65cbc54deff166ecbbcbaa5_285102_9a059d56b8ad0849b694e3888e75369b.webp 400w,
+               /project/new_proj/2.3/2_hu07051afed65cbc54deff166ecbbcbaa5_285102_2e374b5ffd5dddcd7973f2dc9248515d.webp 760w,
+               /project/new_proj/2.3/2_hu07051afed65cbc54deff166ecbbcbaa5_285102_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.3/2_hu07051afed65cbc54deff166ecbbcbaa5_285102_9a059d56b8ad0849b694e3888e75369b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Для того, чтобы передать некий пакет данных с помощью луковой маршрутизации, отправитель шифрует пакет и ip-получателя, генерирует 3 ключа, и постепенно расшифровывая данные, получается так, что ip-получателя знает только отправитель и выходной узел, который непосредственно передает пакет данных получателю.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Отправитель генерирует общий секретный ключ:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ключ&#34; srcset=&#34;
+               /project/new_proj/2.3/3_hu5bf8a225e7658b0ef2a04a229b144a3d_279723_3b50b9d9728eb9cb8c15b9be821835f0.webp 400w,
+               /project/new_proj/2.3/3_hu5bf8a225e7658b0ef2a04a229b144a3d_279723_f3b1bd73c949562cfe527953d09ec56e.webp 760w,
+               /project/new_proj/2.3/3_hu5bf8a225e7658b0ef2a04a229b144a3d_279723_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.3/3_hu5bf8a225e7658b0ef2a04a229b144a3d_279723_3b50b9d9728eb9cb8c15b9be821835f0.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Отправитель генерирует общие ключи с тремя промежуточным узлами. Далее он шифрует свои данные под каждым из этих ключей. В начале он шифрует данные для выходного узла, сверху он шифрует зашифрованные уже данные с помощью ключа промежуточного узла, и наконец он шифрует данные с помощью ключа с охранным узлом и отправляет это тройное шифрование в сеть.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Должен ли получатель использовать браузер TOR (или другой браузер, основанные на луковой маршрутизации) для успешного получения пакетов:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;TOR&#34; srcset=&#34;
+               /project/new_proj/2.3/4_huedaa986a490474fcaad4d1d5b822a9cd_276661_b6febc066292b41bfe6882da1323fe71.webp 400w,
+               /project/new_proj/2.3/4_huedaa986a490474fcaad4d1d5b822a9cd_276661_a932824ebbbf647eb236ebf74a7919b9.webp 760w,
+               /project/new_proj/2.3/4_huedaa986a490474fcaad4d1d5b822a9cd_276661_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.3/4_huedaa986a490474fcaad4d1d5b822a9cd_276661_b6febc066292b41bfe6882da1323fe71.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Нет, это не обязательно. Для получения пакетов использование луковой маршрутизации не обязательно.&lt;/p&gt;
+&lt;h2 id=&#34;беспроводные-сети-wi-fi&#34;&gt;Беспроводные сети Wi-fi&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Wi-fi это:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Wi-fi&#34; srcset=&#34;
+               /project/new_proj/2.4/1_hu097ab05da20b5724215448a2b16c35c7_278435_403caae7aca3c4df5fa7079bed6e3032.webp 400w,
+               /project/new_proj/2.4/1_hu097ab05da20b5724215448a2b16c35c7_278435_f79b64dbdbf1d5690817046f0722a251.webp 760w,
+               /project/new_proj/2.4/1_hu097ab05da20b5724215448a2b16c35c7_278435_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.4/1_hu097ab05da20b5724215448a2b16c35c7_278435_403caae7aca3c4df5fa7079bed6e3032.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;WiFi - это технология беспроводной локальной сети, она основана на стандарте IEEE 802.11. IEEE – это организация, которая описывает вообще любые стандарты того, как работает интернет. В частности, она описывает, как должен работать беспроводной интернет, и номер этого стандарта 802.11, и все последующие модификации (этот стандарт модифицируется с течением времени) носят название 802.11 и далее какие-то буквы.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;На каком уровне работает протокол Wi-fi:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Wi-fi&#34; srcset=&#34;
+               /project/new_proj/2.4/2_hu888b6c0d753533036ec152e67c1ca1d3_272116_114f87e3d36b22e10ab341683ad46274.webp 400w,
+               /project/new_proj/2.4/2_hu888b6c0d753533036ec152e67c1ca1d3_272116_44f5db2bf8fc52aa1d7b892efb32426f.webp 760w,
+               /project/new_proj/2.4/2_hu888b6c0d753533036ec152e67c1ca1d3_272116_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.4/2_hu888b6c0d753533036ec152e67c1ca1d3_272116_114f87e3d36b22e10ab341683ad46274.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Канальный уровень (англ. Link layer) описывает способ кодирования данных для передачи пакета данных на физическом уровне (то есть специальные последовательности бит, определяющих начало и конец пакета данных, а также обеспечивающие помехоустойчивость). Ethernet, например, в полях заголовка пакета содержит указание того, какой машине или машинам в сети предназначен этот пакет. Примеры протоколов канального уровня — Ethernet, IEEE 802.11 WLAN, SLIP, Token Ring, ATM и MPLS.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Небезопасный метод обеспечения шифрования и аутентификации в сети Wi-Fi:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Wi-fi&#34; srcset=&#34;
+               /project/new_proj/2.4/3_hu5bf8b68d06294ebb520a2693a43a273a_265702_c594189f31cb61fccd3e15d8ec55fe64.webp 400w,
+               /project/new_proj/2.4/3_hu5bf8b68d06294ebb520a2693a43a273a_265702_98679b42d196ace12d7a3576d9f4759c.webp 760w,
+               /project/new_proj/2.4/3_hu5bf8b68d06294ebb520a2693a43a273a_265702_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.4/3_hu5bf8b68d06294ebb520a2693a43a273a_265702_c594189f31cb61fccd3e15d8ec55fe64.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Самый ранний и на сегодняшний день небезопасный метод шифрования данных WiFi называется WEP. Он устарел и уже категорически не рекомендуется к использованию. Он устарел, в частности, потому, что использовал малую длину ключа: так, например, он использовал длину ключа в 40 бит, это довольно мало на сегодняшний день, он может быть легко взломан.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Данные между хостом сети (компьютером или смартфоном) и роутером:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Данные&#34; srcset=&#34;
+               /project/new_proj/2.4/4_huaf9b4711f64fe443500d3c3f81fc5f14_290866_5bc85df37a26843a7d0d913aed7460ed.webp 400w,
+               /project/new_proj/2.4/4_huaf9b4711f64fe443500d3c3f81fc5f14_290866_7693c90b02f331a6f4f36e9a53dd0b62.webp 760w,
+               /project/new_proj/2.4/4_huaf9b4711f64fe443500d3c3f81fc5f14_290866_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.4/4_huaf9b4711f64fe443500d3c3f81fc5f14_290866_5bc85df37a26843a7d0d913aed7460ed.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Когда мы с вами соединяемся к роутеру, мы шифруем наши данные, и до того, как начать шифрование, мы аутентифицируем себя, свое устройство этому самому роутеру.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Для домашней сети для аутентификации обычно используется метод:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Домашняя сеть&#34; srcset=&#34;
+               /project/new_proj/2.4/5_hu5754d41edae5e25cd8472c174b74be8f_269113_2899e53b06f9190c13f4aede92459c12.webp 400w,
+               /project/new_proj/2.4/5_hu5754d41edae5e25cd8472c174b74be8f_269113_c735644fb9bc398a84ca01e1528ced7e.webp 760w,
+               /project/new_proj/2.4/5_hu5754d41edae5e25cd8472c174b74be8f_269113_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/2.4/5_hu5754d41edae5e25cd8472c174b74be8f_269113_2899e53b06f9190c13f4aede92459c12.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Аутентификация в современных алгоритмах WPA, WPA2 может осуществляться в двух разных режимах: WPA Personal - это классическая аутентификация по паролю, как правило, такой алгоритм используется в домашних сетях или в небольших корпоративных сетях; более сложный метод аутентификации называется WPA Enterprise - это когда у нас существует база данных всех зарегистрированных пользователей, и когда человек подключается к сети WiFi, по этой базе данных проверяется, есть ли он в базе или нет, и как правило, сама эта база данных со списком разрешенных пользователей находится на специальных серверах. Это довольно сложное устройство аутентификации, которое, скорее всего, не нужно для маленьких домашних сетей.&lt;/p&gt;
+&lt;h2 id=&#34;шифрование-диска&#34;&gt;Шифрование диска&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Можно ли зашифровать загрузочный сектор диска:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Загрузочный сектор&#34; srcset=&#34;
+               /project/new_proj/3.1/1_hu1aae5205ced4db47071da8b9bc06a8db_262618_b33e98288b286ce5fcfde740cedc7e4f.webp 400w,
+               /project/new_proj/3.1/1_hu1aae5205ced4db47071da8b9bc06a8db_262618_70d48b6f1c98655b76213e5b36e5e6b1.webp 760w,
+               /project/new_proj/3.1/1_hu1aae5205ced4db47071da8b9bc06a8db_262618_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.1/1_hu1aae5205ced4db47071da8b9bc06a8db_262618_b33e98288b286ce5fcfde740cedc7e4f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Как было сказано в лекции, шифровать можно не только жесткий диск, где мы храним файлы, можно шифровать и загрузочный сектор диска. Это тот сектор, который включается сразу после того, как мы стартовали компьютер. Компьютер считывает данные в сегменте, который хранит у себя загрузочные файлы операционной системы, и мы получаем либо свой рабочий стол, либо запрос на авторизацию для доступа к нашему рабочему столу. Вот для того, чтобы зашифровать загрузочный сектор, мы тоже можем использовать методы шифрования. В этом случае вас попросят ввести ключ или скорее даже пароль к этому ключу при самом запуске компьютера.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Шифрование диска основано на:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Шифрование диска&#34; srcset=&#34;
+               /project/new_proj/3.1/2_hu6a6e3293643f3090d640703255dd1a88_272603_eb99062f596dc33eb1423ae957075c25.webp 400w,
+               /project/new_proj/3.1/2_hu6a6e3293643f3090d640703255dd1a88_272603_4ff133cb6ee3e94d0c9aac1eb58e3f78.webp 760w,
+               /project/new_proj/3.1/2_hu6a6e3293643f3090d640703255dd1a88_272603_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.1/2_hu6a6e3293643f3090d640703255dd1a88_272603_eb99062f596dc33eb1423ae957075c25.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Шифрование больших объемов данных, например, жесткого диска или сегмента жесткого диска или какой-то большой флешки, осуществляется с помощью симметричного шифрования, как правило, алгоритма AES. Это американский стандарт симметричного шифрования, он также используется для конфиденциальной передачи данных по сети. Это эффективный алгоритм, который реализован в процессорах быстро, то есть на аппаратном уровне. Благодаря тому, что это хороший алгоритм, пользователь практически не наблюдает задержек в работе, то есть данные шифруются-дешифруются быстро. Как правило, это происходит на заднем фоне, мы можем при этом работать на компьютере, будут происходить какие-то параллельные операции на шифрование и дешифрование.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;С помощью каких программ можно зашифровать жесткий диск:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Пример программ&#34; srcset=&#34;
+               /project/new_proj/3.1/3_huf60dc6d56bd5110286db2f9392724fd9_284496_85ddcfaec2eafd06215b556b43100ddf.webp 400w,
+               /project/new_proj/3.1/3_huf60dc6d56bd5110286db2f9392724fd9_284496_9b8f6521e4ce49e931933d1536a98aa4.webp 760w,
+               /project/new_proj/3.1/3_huf60dc6d56bd5110286db2f9392724fd9_284496_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.1/3_huf60dc6d56bd5110286db2f9392724fd9_284496_85ddcfaec2eafd06215b556b43100ddf.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Во всех популярных операционных системах есть встроенные утилиты, которые позволяют шифровать жесткий диск: для Windows этo Bitlocker, в Linux – LUKS, в MacOS – это FileVault. Кроме того, есть и сторонние опенсорсные (open source) программы, то есть бесплатные: это Veracrypt, PGPDisk, которые вы можете установить себе и использовать их для шифрования ваших жестких дисков, загрузочных секторов или флешек.&lt;/p&gt;
+&lt;h2 id=&#34;пароли&#34;&gt;Пароли&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Какие пароли можно отнести с стойкими:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Примеры надежных паролей&#34; srcset=&#34;
+               /project/new_proj/3.2/1_hu634859ef4a473b46967b6172365b7291_266659_76bc9f15767763de777a182bd795a866.webp 400w,
+               /project/new_proj/3.2/1_hu634859ef4a473b46967b6172365b7291_266659_c1ddb635b54ae70f351c11d49b997bba.webp 760w,
+               /project/new_proj/3.2/1_hu634859ef4a473b46967b6172365b7291_266659_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.2/1_hu634859ef4a473b46967b6172365b7291_266659_76bc9f15767763de777a182bd795a866.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Основной критерий стойкости пароля - это сложность его перебора. Самая основная атака на наши пароли - это банальный перебор всевозможных паролей. Например, если мы возьмем пароли длины 6, которые состоят только из цифр от 0 до 9, то множество всех таких паролей будет содержать в себе 106, то есть один миллион элементов, и это множество перебирается на самом простом, недорогом ноутбуке за секунду в сегодняшних возможностях. Важно то, что, если мы будем увеличивать длину пароля, допустим, возьмем не 6, а 10, и опять рассмотрим только цифры, мы получим с вами 1010 всевозможных паролей, это 10 миллиардов паролей. Это уже больше, для этого нам потребуются более серьёзные мощности, нежели домашний лаптоп, однако это все равно вполне себе перебираемое множество, на которое мы просто потратим не секунду, а, например, часы или дни, в зависимости от оборудования. Важно то, что, если мы с вами перейдем от цифр к буквам, например, возьмём латинский алфавит, даже только нижний регистр, маленькие буквы, то мы значительно увеличим мощность всевозможных паролей длины 8. Если у нас есть 10 цифр и 26 букв алфавита, то мы получим 368 всевозможных паролей для перебора, это уже почти 3 триллиона паролей, и перебор вот такого множества уже становится практически не реализуем, для этого нужно действительно очень много машин соединить, очень большие мощности, и вот такой пароль считается уже относительно безопасным. Естественно, если мы с вами добавим в эти 8 символов еще и 8 слотов для символов и ещё спецсимволы, то мы уже увеличим с вами область перебора до числа, перебор которого на сегодняшний день невыполним. Таким образом, поэтому, когда мы создаем пароль, он всегда автоматически проверяется на стойкость. Проверяется его длина и из какого алфавита он состоит: из цифр, букв нижнего регистра, верхнего регистра и спецсимволов. Как правило, вас просят добавить как минимум один спецсимвол, как минимум одну цифру, как минимум одну букву верхнего регистра, нижнего регистра. Это все сделано для того, чтобы сложность перебора вашего пароля была большой.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Где безопасно хранить пароли:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Пароли&#34; srcset=&#34;
+               /project/new_proj/3.2/2_hu25885d42e7dfc186efe4607c54f0f2af_274810_5628e91a394dbc36bb274c3f1ff73209.webp 400w,
+               /project/new_proj/3.2/2_hu25885d42e7dfc186efe4607c54f0f2af_274810_3759744e91b0f550d90b5eb8ac4362cb.webp 760w,
+               /project/new_proj/3.2/2_hu25885d42e7dfc186efe4607c54f0f2af_274810_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.2/2_hu25885d42e7dfc186efe4607c54f0f2af_274810_5628e91a394dbc36bb274c3f1ff73209.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Перейдем к тому, как хранить пароли на компьютере. Мы уже договорились, что пароли должны быть длинные, длинные пароли сложно запомнить. Поэтому корректно хранить свои ключи в хранилище паролей. Хранилища у нас есть на разных операционных системах. Я привела в пример KeepassXC, по-моему, он кроссплатформенный, он есть и на Linux, на Windows; на Mac есть Keychain Access, это утилита, которая хранит пароли. И если у вас есть такое хранилище паролей, достаточно запомнить мастер-ключ, мастер-пароль от этого самого хранилища, и когда вы получите доступ к своему хранилищу, вы можете посмотреть все свои длинные безопасные пароли к разным сервисам, запоминая только один хороший пароль.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Зачем нужна капча:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Капча&#34; srcset=&#34;
+               /project/new_proj/3.2/3_hu68a074522e8dd2c6a182417326177376_281477_0785f1bf08f4138e7ad3e3447ac78cd1.webp 400w,
+               /project/new_proj/3.2/3_hu68a074522e8dd2c6a182417326177376_281477_189254c282fbe87f0966390df6646b7c.webp 760w,
+               /project/new_proj/3.2/3_hu68a074522e8dd2c6a182417326177376_281477_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.2/3_hu68a074522e8dd2c6a182417326177376_281477_0785f1bf08f4138e7ad3e3447ac78cd1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Капча - это аббревиатура с английского; это тест для определения, является ли пользователь, который общается с веб-сервисом, человеком или компьютером, ботом, которой пытается просто-напросто перебрать все пароли. После того, как мы ввели имя пользователя и пароль, часто помимо этого нас еще какой-то веб-сайт спрашивает какой-то тест, в котором мы должны там увидеть какие-то плохо написанные буквы или символы, и цель этого - отличить нас от компьютера, который пытается автоматически перебрать пароли конкретного пользователя или даже в сумме пользователя и пароля, просто пусть какой-то доступ к ресурсу.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Для чего применяется хэширование паролей:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Хэширование&#34; srcset=&#34;
+               /project/new_proj/3.2/4_hu8b0a21e0a47cdf487b0f6dda7ff66c7b_158180_2394c16e95976b3113af56f852de0a9e.webp 400w,
+               /project/new_proj/3.2/4_hu8b0a21e0a47cdf487b0f6dda7ff66c7b_158180_92f4fec13943c01ba9751b319ebdc56b.webp 760w,
+               /project/new_proj/3.2/4_hu8b0a21e0a47cdf487b0f6dda7ff66c7b_158180_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.2/4_hu8b0a21e0a47cdf487b0f6dda7ff66c7b_158180_2394c16e95976b3113af56f852de0a9e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Что такое хэш? Хэш произошло от английского to hash – перемалывать, работать мясорубкой, то есть это преобразование какого-то числа информации в какую-то другую информацию. В частности, хэш-функция - эта функция, которая берет на вход любую строку битовую и преобразует ее в строку фиксированной длины, то есть она сжимает её. Есть разные типы хэш-функций, важное свойство конкретно криптографический хэш-функции заключается в том, что, во-первых, она эффективна, то есть она считается буквально за миллисекунды; во-вторых, получив на вход произвольные данные, будь то pdf-файл, будь то какой-то сектор жесткого диска, эта функция выдаст нам независимо от входа какое-то фиксированное число бит. И важное свойство этого фиксированного числа бит - выходные биты не должны никаким образом видимо зависеть от входного числа бит. Основная идея хэш-функция состоит в том, что, имея выход хэш-функции, сложно найти входные данные. Если говорить более строгим математическим языком, если мы имеем образ хэш-функции (то есть выход хэш-функции), сложно найти прообраз хэш-функции, то есть вход, который привёл к этому выходу.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Поможет ли соль для улучшения стойкости паролей к атаке перебором, если злоумышленник получил доступ к серверу:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Соль&#34; srcset=&#34;
+               /project/new_proj/3.2/5_hud37288063384e1a54e53777441cd7ae6_150773_86bdc342f7aa27830d29d12576d3ee7a.webp 400w,
+               /project/new_proj/3.2/5_hud37288063384e1a54e53777441cd7ae6_150773_0aa5dff002480bdabbf5e89868ac45ae.webp 760w,
+               /project/new_proj/3.2/5_hud37288063384e1a54e53777441cd7ae6_150773_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.2/5_hud37288063384e1a54e53777441cd7ae6_150773_86bdc342f7aa27830d29d12576d3ee7a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Соль используется для того, чтобы увеличить стойкость пароля для пользователей, которые сами не догадались о стойкости своих паролей. Например, если у нас alice логинится с паролем 12345, что делает при этом сервер? Сервер не хочет хранить хэш от пароля 12345, потому что, скорее всего, злоумышленник имеет таблицы с самыми популярными паролями и их хэшами. Какая функция хэш используется в конкретном сервере, все знают. В основном, много серверов используют в своих таблицах SHA2 или SHA3, и, естественно, злоумышленник может для самых частых паролей посчитать эти значения, поэтому хранить хэш от 12345 абсолютно бессмысленно, и так понятно, что это соответствует паролю 12345. Поэтому умный сервер делает следующее: он сам генерирует какой-то действительно хороший пароль или кусочек какого-то пароля, не обязательно, чтобы он был длинный, добавляет эти случайные биты к паролю и хэширует результат. Под словом добавляет я имею в виду, что он приписывает кусочек после самого пароля alice, еще это называется конкатенация строк. Соль - это и есть тот кусочек случайного бита, который генерирует сервер в своей таблице. Следовательно, при доступе злоумышленника к серверу, у него будет доступ и к соли, а следовательно и к паролю, поэтому, соль не поможет для улучшения стойкости паролей к атаке перебором.&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Какие меры защищают от утечек данных атакой перебором:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Меры защиты&#34; srcset=&#34;
+               /project/new_proj/3.2/6_huccacabeb23e2c6081c302c099c04756d_288958_3dfc9658b2f96fad758c316c2cd2d42b.webp 400w,
+               /project/new_proj/3.2/6_huccacabeb23e2c6081c302c099c04756d_288958_83cf5edf35020399c4c0499449c68fe6.webp 760w,
+               /project/new_proj/3.2/6_huccacabeb23e2c6081c302c099c04756d_288958_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.2/6_huccacabeb23e2c6081c302c099c04756d_288958_3dfc9658b2f96fad758c316c2cd2d42b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Все вышеперечисленные пункты смогут защитить аккаунт от утечки данных атакой перебором.&lt;/p&gt;
+&lt;h2 id=&#34;фишинг&#34;&gt;Фишинг&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Какие из следующих ссылок являются фишинговыми:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Ссылки&#34; srcset=&#34;
+               /project/new_proj/3.3/1_huc178839611fd0a182ba8872b993c0ee6_292659_30175d2c038fd634bf2758b782f1341e.webp 400w,
+               /project/new_proj/3.3/1_huc178839611fd0a182ba8872b993c0ee6_292659_3ed666502e6292ce36f0a52a430db99b.webp 760w,
+               /project/new_proj/3.3/1_huc178839611fd0a182ba8872b993c0ee6_292659_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.3/1_huc178839611fd0a182ba8872b993c0ee6_292659_30175d2c038fd634bf2758b782f1341e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Для того, чтобы адресный фишинг сработал, чтобы вас поймали на удочку, вам необходимо всего лишь некорректно с точки зрения безопасности отреагировать на email, который содержит ссылку на какую-то фальшивую страницу. Допустим, вам пришло какое-то письмо с интересной ссылкой vk.club5.ru. Если вы зайдёте по этой ссылке, вы наверняка встретите интернет-страницу, идентичную странице известной соцсети ВКонтакте. Если вы не будете внимательными, захотите внести свои данные аутентификации в это окно и нажмёте «войти», то все ваши данные, которые вы вбили - юзернейм и пароль – естественно, при нажатии на клавишу «войти» не аутентифицируют вас в эту соцсеть, а перешлют эти данные хакеру. При этом сработает какой-то код, который сгенерирует сообщение, отправит его благополучно хакеру, вы при этом ничего не заметите.
+Другой пример фишинга - эта маскировка под известные веб-сайты только с другим доменным именем, начало может быть одинаковое или середина. В примере с vk.com понятно, на какой сервис это ссылается, ну а потом идет какая-то белиберда, которая не имеет ничего общего с реальной ссылкой. Естественно, никакие данные вводить сюда нельзя, но и более того, заметьте, что соединение вот с этим сайтом произошло не по HTTPS протоколу, а по небезопасному HTTP протоколу, это тоже звоночек, потому что с этого сайта лучше побыстрее уйти.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Может ли фишинговый имейл прийти от знакомого адреса:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;имейл&#34; srcset=&#34;
+               /project/new_proj/3.3/2_hu4116341e9d2660bd30b7d5cb010fe093_257443_032d7bc79f969a80ba5afa30321dc94f.webp 400w,
+               /project/new_proj/3.3/2_hu4116341e9d2660bd30b7d5cb010fe093_257443_1e53d2a7337ddfec235eb166677f7fe6.webp 760w,
+               /project/new_proj/3.3/2_hu4116341e9d2660bd30b7d5cb010fe093_257443_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.3/2_hu4116341e9d2660bd30b7d5cb010fe093_257443_032d7bc79f969a80ba5afa30321dc94f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Если вернемся к адресному фишингу имейлов, возникает вопрос, можем ли мы получить вот такое фишинговое письмо от отправителя, которого мы знаем. Наверняка кто-либо из вас уже получал такой спам, и адрес отправителя оказывался адресом человек, которого вы как бы знаете, с которым общаетесь иногда. Это называется email spoofing/спуфинг от английского spoof – подменить. И спуфинг – это глобальный термин атак, есть IP spoofing - это подмена IP-адреса, есть email spoofing - подмена адреса отправителя. Суть состоит в том, что мы получаем фишинговое письмо от якобы знакомого нам человека, а на самом деле отправлено оно было не им. Это работает потому, что классический протокол отправки писем (SMTP) не включает проверку адреса отправителя, и поэтому у нас существуют вот такие надстройки на классический протокол SMTP, которые называются, например SPF (Sender Policy Framework). Это расширение протокола SMTP, которое позволяет получать письма только от некоторого списка авторизованных IP-адресов. Этим занимается, как правило, наш почтовый сервер, но и большинство почтовых серверов, которые позволяют нам регистрировать свои почтовые ящики (Google, Yandex, Mail.ru и другие крупные почтовые сервисы), конечно, позволяют это расширение подключать. Как правило, вместе с этим расширением вдогонку идет другое расширение, оно называется DMARC. Это протокол аутентификации email, он содержит правила, согласно которым сервер либо отправляет, либо блокирует письмо, и этим также заведует наш почтовый сервер.&lt;/p&gt;
+&lt;h2 id=&#34;вирусы-примеры&#34;&gt;Вирусы. Примеры&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Email Спуфинг - это:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Спуфинг&#34; srcset=&#34;
+               /project/new_proj/3.4/1_hue15ee805c7c6ce7c5c238f5252c3a6fc_261217_a665d186ab209fe9033b010d78d75588.webp 400w,
+               /project/new_proj/3.4/1_hue15ee805c7c6ce7c5c238f5252c3a6fc_261217_1934b409d39274c9407f73bc9d347d68.webp 760w,
+               /project/new_proj/3.4/1_hue15ee805c7c6ce7c5c238f5252c3a6fc_261217_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.4/1_hue15ee805c7c6ce7c5c238f5252c3a6fc_261217_a665d186ab209fe9033b010d78d75588.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Ввиду комментария к предыдущему пункту, email спуфинг это подмена адреса отправителя.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Вирус-троян:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Троян&#34; srcset=&#34;
+               /project/new_proj/3.4/2_hu50c0b2dfad4b146a7d5be293f6cecc9e_270987_38bc64bab73d5fd1cf63e20cb2d63b41.webp 400w,
+               /project/new_proj/3.4/2_hu50c0b2dfad4b146a7d5be293f6cecc9e_270987_75944aea546610ae5284eae5d6e56dc9.webp 760w,
+               /project/new_proj/3.4/2_hu50c0b2dfad4b146a7d5be293f6cecc9e_270987_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.4/2_hu50c0b2dfad4b146a7d5be293f6cecc9e_270987_38bc64bab73d5fd1cf63e20cb2d63b41.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Троян - это вирус, который проникает в систему под видом какого-то легитимного программного обеспечения, это аллюзия к троянскому коню.&lt;/p&gt;
+&lt;h2 id=&#34;безопасность-мессендеров&#34;&gt;Безопасность мессендеров&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;На каком этапе формируется ключ шифрования в протоколе мессенджеров Signal:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Signal&#34; srcset=&#34;
+               /project/new_proj/3.5/1_hu68e22241c94e9e94a599b3225a1d4171_269926_135ca5179126a0d6141f5cd9aac881e7.webp 400w,
+               /project/new_proj/3.5/1_hu68e22241c94e9e94a599b3225a1d4171_269926_c9d1a1815cec6ca342d1f98c581c45b9.webp 760w,
+               /project/new_proj/3.5/1_hu68e22241c94e9e94a599b3225a1d4171_269926_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.5/1_hu68e22241c94e9e94a599b3225a1d4171_269926_135ca5179126a0d6141f5cd9aac881e7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Сквозное шифрование в протоколах Signal реализовано в двух больших шагах: это те же самые шаги, которые мы с вами уже встречали в протоколе TLS, когда говорили о безопасной коммуникации с веб-сервером. Вначале мы генерируем общий ключ, и уже после с помощью этого общего ключа отправляет сообщение уже зашифрованное под этим общим ключом Бобу. Кроме этого зашифрованного сообщения, она отправляет Бобу свой кусочек открытого ключа, при этом Боб, получив этот кусочек открытого ключа, имея какую-то свою секретную информацию, формирует тот же самый общий ключ, с помощью которого Алиса шифровала сообщение. Получив зашифрованное сообщение и вычислив общий ключ, Боб может уже дешифровать корректно это сообщение.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Суть сквозного шифрования состоит в том, что:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Суть сквозного шифрования&#34; srcset=&#34;
+               /project/new_proj/3.5/2_huc39a3e863ebe7957d47172dd1fb33981_285345_b46128e9b78eb43d1e994b7b2497df52.webp 400w,
+               /project/new_proj/3.5/2_huc39a3e863ebe7957d47172dd1fb33981_285345_625b261be06dca311adfbd2974ce2367.webp 760w,
+               /project/new_proj/3.5/2_huc39a3e863ebe7957d47172dd1fb33981_285345_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/3.5/2_huc39a3e863ebe7957d47172dd1fb33981_285345_b46128e9b78eb43d1e994b7b2497df52.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Суть довольно простая: у нас есть два участника - Алиса и Боб, A и B, и сквозное шифрование заключается в том, что сервер, который передает сообщение, который направляет сообщение от Алисы к Бобу или от Бобу к Алисе, знает только то, куда эти сообщения должны быть направлены, но сообщения он передает в зашифрованном виде, то есть он как бы работает маршрутизатором  сообщений, не зная о том, что он передает. Что происходит, если мы хотим отправить сообщение от Алисы к Бобу? Алиса шифрует свои данные, кладет на сервере шифр-текст с пометкой, что этот шифр-текст предназначен для Боба. Когда Боб заходит в сеть, сервер видит: «Ага, Боб зашел в сеть, надо обновить его сообщение», и отправляет шифр-текст от Алисы. Боб получает этот шифр-текст, дешифрует его, получает сообщение в открытом виде. При этом сервер не знает ни ключ, с помощью которого Алиса шифровала, ни тем более сообщение в открытом виде.&lt;/p&gt;
+&lt;h2 id=&#34;введение-в-криптографию&#34;&gt;Введение в криптографию&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;В асимметричных криптографических примитивах:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Ответ&#34; srcset=&#34;
+               /project/new_proj/4.1/1_hu6b4371b3e930fbada1de06a72087ae30_274988_1ac71ac836b44c242e7baa810b5274d5.webp 400w,
+               /project/new_proj/4.1/1_hu6b4371b3e930fbada1de06a72087ae30_274988_5852c62feb3f1289098f2d87caf69b85.webp 760w,
+               /project/new_proj/4.1/1_hu6b4371b3e930fbada1de06a72087ae30_274988_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.1/1_hu6b4371b3e930fbada1de06a72087ae30_274988_1ac71ac836b44c242e7baa810b5274d5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Определяющее свойство симметричной криптографии состоит в том, что она включает себя протоколы, где две или более стороны имеют общие секретные ключи, поэтому она и называется симметричной. К таким протоколам относят симметричное шифрование и некоторые протоколы аутентификации. Часто симметричный протокол довольно сложно построить, сложно установить потенциальный канал связи, исключительно основываясь на симметричных протоколах, поскольку нам нужно сгенерировать общий секретный ключ, то есть либо как-то физически встретиться с другим человеком и с другим устройством, либо что-то такое сделать, чтобы мы сгенерировали общий секрет. И элегантным решением этого вопроса являются протоколы асимметричной криптографии.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Криптографическая хэш-функция:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;хэш-функция&#34; srcset=&#34;
+               /project/new_proj/4.1/2_huc6038f114816113c28a71693415b6de7_285489_7f62dbd42e9475b4f4482d963112cc93.webp 400w,
+               /project/new_proj/4.1/2_huc6038f114816113c28a71693415b6de7_285489_4f5911331807224f92c7b80ee9cd5146.webp 760w,
+               /project/new_proj/4.1/2_huc6038f114816113c28a71693415b6de7_285489_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.1/2_huc6038f114816113c28a71693415b6de7_285489_7f62dbd42e9475b4f4482d963112cc93.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Криптографическая хэш-функция берет на вход произвольный объем данных, то есть какие-то биты и выдает на выходе фиксированную строку, например длины n. Важно, что, как правило, функция сжимает данные: она берет большой набор данных и выдаёт потом маленькое фиксированное значение. Важное свойство криптографической хэш-функций, то, что делает её криптографической – это стойкость к коллизиям. Что такое коллизия? Коллизия – это два разных входа в хэш-функцию, которые дают одинаковый выход. То есть это две разные строки например x и x’, где x ≠ x’, такие, что значения хэш-функции на них совпадают, то есть h(x) = h(x’). Это важное свойство отличает криптографическую функцию от некриптографической. Можно доказать (мы этого делать с вами не будем), что из этого свойства коллизии следует другое важное свойство, а именно то, что криптографическую хэш-функцию сложно обратить. То есть, если я вам даю какое-то значение этой функции в точке h(x) и спрашиваю вас, как найти x, то есть вход в эту функцию, для современных криптографических хэш-функций это сделать сложно.  Благодаря этим свойствам, криптографические функции широко применяются в коммуникациях, мы с вами в одной из лекций говорили о том, как криптографическую хэш-функцию можно использовать для хранения паролей. Она также используются для протоколов, подтверждающих целостность данных, ну и современное довольно популярное применение хэш-функции – это доказательство работы. По-другому это называется протоколом proof of work, который используется, например, в таком блокчейне, как биткойн.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;К алгоритмам цифровой подписи относятся:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ЦП&#34; srcset=&#34;
+               /project/new_proj/4.1/3_huce4626d4bc5fc5f69cad2f585584268c_269779_8adfa42c85bedeca0519ea6eeae624c3.webp 400w,
+               /project/new_proj/4.1/3_huce4626d4bc5fc5f69cad2f585584268c_269779_bb401d2de17610d7e65ae4612463725a.webp 760w,
+               /project/new_proj/4.1/3_huce4626d4bc5fc5f69cad2f585584268c_269779_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.1/3_huce4626d4bc5fc5f69cad2f585584268c_269779_8adfa42c85bedeca0519ea6eeae624c3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;К примерам цифровой подписи относятся интернет-сертификаты, подпись RSA, американский стандарт ECDSA и отечественный стандарт ГОСТ стандарт P 34.20.2012.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Код аутентификации сообщения относится к:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ответ&#34; srcset=&#34;
+               /project/new_proj/4.1/4_hu7532f0bb67f2ef811e9883bd6986b67d_255415_cc8e5c27fe1b47da58080635d10aa390.webp 400w,
+               /project/new_proj/4.1/4_hu7532f0bb67f2ef811e9883bd6986b67d_255415_0e37ef0d6adc38ad9ce4dddaaf9809ae.webp 760w,
+               /project/new_proj/4.1/4_hu7532f0bb67f2ef811e9883bd6986b67d_255415_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.1/4_hu7532f0bb67f2ef811e9883bd6986b67d_255415_cc8e5c27fe1b47da58080635d10aa390.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Если мы будем двигаться дальше, то симметричное шифрование можно проапгрейдить до симметричного шифрования с аутентификацией. Это означает, что к шифр-тексту, который мы сгенерировали с помощью ключа для какого-то сообщения, мы еще добавляем код аутентификации сообщения. Это также симметричный примитив, который берет на вход какой-то ключ (это должен быть другой ключ, не тот, с которого мы шифровали) и сообщение и выдает код аутентификации сообщения. Корректно об этом примитиве думать, как о симметричной версии подписи. Как правило, код аутентификации сообщения строится с помощью хэш-функции или симметричного шифрования.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Обмен ключами Диффи-Хэллмана - это:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Диффи-Хэллман&#34; srcset=&#34;
+               /project/new_proj/4.1/5_hua4735b02c7fd6c1a56b84866028dbafd_275749_a17210e2a9a09a81ff9840318a451789.webp 400w,
+               /project/new_proj/4.1/5_hua4735b02c7fd6c1a56b84866028dbafd_275749_4ab2b89ecdb95e3b74d98713717065fb.webp 760w,
+               /project/new_proj/4.1/5_hua4735b02c7fd6c1a56b84866028dbafd_275749_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.1/5_hua4735b02c7fd6c1a56b84866028dbafd_275749_a17210e2a9a09a81ff9840318a451789.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Самым популярным примером протокола обмена ключами является протокол Диффи-Хэллмана, как раз он, либо его модификации используются в современных мессенджерах и в протоколе TLS для того, чтобы мы смогли сгенерировать общий секретный ключ и дальше шифровать наши данные с помощью симметричного алгоритма, то есть с помощью ключа skAB. Если реализовать генерацию общего ключа так, как она описана у Диффи-Хэллмана, мы получим довольно слабый протокол, нестойкий к активным злоумышленникам. Сделать этот протокол стойким к активным злоумышленникам помогает цифровая подпись.&lt;/p&gt;
+&lt;h2 id=&#34;цифровая-подпись&#34;&gt;Цифровая подпись&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Протокол электронной цифровой подписи относится к:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ответ&#34; srcset=&#34;
+               /project/new_proj/4.2/1_hu360e15d90838dfdcf5ebdbc382109644_259818_1b7a4825decbf147a28be34f5c60144e.webp 400w,
+               /project/new_proj/4.2/1_hu360e15d90838dfdcf5ebdbc382109644_259818_34c09bf49095047272259dd6b90d71c2.webp 760w,
+               /project/new_proj/4.2/1_hu360e15d90838dfdcf5ebdbc382109644_259818_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.2/1_hu360e15d90838dfdcf5ebdbc382109644_259818_1b7a4825decbf147a28be34f5c60144e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Люди, которые занимаются разработкой программного обеспечения, с выходом каждого нового обновления или с выходом самой первой версии программы обязательно подписывают программный код. Например, если вы хотите обновить свою операционную систему, допустим, Ubuntu, у организации программистов, которые выпустили обновление, есть пара ключей – это публичный ключ pkU и секретный ключ skU. Секретный ключ они держат в секрете, публичный ключ знают все. И когда они выпускают обновление, они его подписывают с помощью своего секретного ключа.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Алгоритм верификации электронной цифровой подписи требует на вход:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Алгоритм&#34; srcset=&#34;
+               /project/new_proj/4.2/2_huf3f58567b150c5fb4b83052ac643d0b1_272326_c2a81aa1db9817ca40fefc6a7633b181.webp 400w,
+               /project/new_proj/4.2/2_huf3f58567b150c5fb4b83052ac643d0b1_272326_f8359f045fb7fb9ff509427dad7f3b98.webp 760w,
+               /project/new_proj/4.2/2_huf3f58567b150c5fb4b83052ac643d0b1_272326_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.2/2_huf3f58567b150c5fb4b83052ac643d0b1_272326_c2a81aa1db9817ca40fefc6a7633b181.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Алгоритм подписи Sign берет на вход секретный ключ и обновление, например, программный код и выдает подпись σ. Обновление вместе с подписью скачивается всеми пользователями, и, прежде чем установить это обновление, ваш компьютер проверяет, действительно ли это обновление пришло от тех программистов, от которых мы ожидаем это обновление, что это не поддельный софт. То есть каждая машина запускает процедуру Verify, которая берет на вход само обновление, подпись и открытый ключ разработчика, и в случае если верификация прошла успешно, мы можем установить это обновление.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Электронная цифровая подпись не обеспечивает:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ЦП&#34; srcset=&#34;
+               /project/new_proj/4.2/3_hubabff2dd0c005dff85b41f84b1f586dc_265835_ca7ba3d389299cb986db0d7eb9751b26.webp 400w,
+               /project/new_proj/4.2/3_hubabff2dd0c005dff85b41f84b1f586dc_265835_1a17fda3eaef06f9a631e41f6d6b87ed.webp 760w,
+               /project/new_proj/4.2/3_hubabff2dd0c005dff85b41f84b1f586dc_265835_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.2/3_hubabff2dd0c005dff85b41f84b1f586dc_265835_ca7ba3d389299cb986db0d7eb9751b26.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;В алгоритме подготовки и верификации цифровой подписи участвуют как минимум 3 узла, поэтому, о конфиденциальности говорить сложно.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Какой тип сертификата электронной подписи понадобится для отправки налоговой отчетности в ФНС:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Сертификат&#34; srcset=&#34;
+               /project/new_proj/4.2/4_hu7b6ceeca7bc0b2db77b31230c42fdce5_260005_ea723c55379b26766ed48da8d26d9b44.webp 400w,
+               /project/new_proj/4.2/4_hu7b6ceeca7bc0b2db77b31230c42fdce5_260005_50d97d3deabb63f30b9e6c9fb0c68d86.webp 760w,
+               /project/new_proj/4.2/4_hu7b6ceeca7bc0b2db77b31230c42fdce5_260005_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.2/4_hu7b6ceeca7bc0b2db77b31230c42fdce5_260005_ea723c55379b26766ed48da8d26d9b44.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Существует три различных точки зрения на подписи: простая, усиленная неквалифицированая и усиленная квалифицированная. Первые два типа не имеет юридической силы или она довольно ограничена, но их можно сгенерировать у себя на компьютере. Простую мы генерируем с помощью пароля, PIN-кода, такая простая подпись может быть использована для авторизации на сайтах. Усиленная неквалифицированная подпись может быть подтверждена сертификатом, который вы сами же можете и выпустить, то есть кроме того, что вы выпускаете свою пару секретных ключей, вы можете сами их сертифицировать. Такая подпись может быть использована в коммерческом документообороте в небольших негосударственных структурах. А вот что касается усиленной квалифицированной подписи, эта подпись уже имеет юридическую силу, она, как правило, равнозначна рукописной. Для того, чтобы получить такую подпись, вам нужно пойти со своим паспортом и с другими данными в сертификационный центр, который должен быть аккредитован конкретным министерством. Такие подписи используются на Госуслугах, в государственном документообороте. Подробнее об этом написано в федеральном законе № 63.&lt;/p&gt;
+&lt;h2 id=&#34;электронные-платежи&#34;&gt;Электронные платежи&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Выберите из списка все платежные системы:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ПС&#34; srcset=&#34;
+               /project/new_proj/4.3/1_hu88ae4531c9acd7d78bdd83f520036d63_265946_d5906bd350d775bd5c1934f3c7946b69.webp 400w,
+               /project/new_proj/4.3/1_hu88ae4531c9acd7d78bdd83f520036d63_265946_e7406e12579ebe7dc2d33d664e264711.webp 760w,
+               /project/new_proj/4.3/1_hu88ae4531c9acd7d78bdd83f520036d63_265946_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.3/1_hu88ae4531c9acd7d78bdd83f520036d63_265946_d5906bd350d775bd5c1934f3c7946b69.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Из всех перечисленных вариантов, только MasterCard и МИР являются платежными системами. Также есть, например, VISA.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Примером многофакторной аутентификации является:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;МА&#34; srcset=&#34;
+               /project/new_proj/4.3/2_hu798e02834e73996094f530b042b8d482_281598_63441528ec064b519375790b31ad38f9.webp 400w,
+               /project/new_proj/4.3/2_hu798e02834e73996094f530b042b8d482_281598_783b00e6ff327cf69d36b34a5a9c71ef.webp 760w,
+               /project/new_proj/4.3/2_hu798e02834e73996094f530b042b8d482_281598_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.3/2_hu798e02834e73996094f530b042b8d482_281598_63441528ec064b519375790b31ad38f9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Многократная аутентификация заключается в том, что мы доказываем в ходе этого протокола несколько вещей есть. Основные категории вещей, которые мы можем доказать: 1) то, что я знаю – это либо пароль, либо PIN-код, либо в случае онлайн-платежей это секретный код, 2) конкретно в онлайн-платежах мы еще используем второй фактор – это то, чем я владею, например, телефон, именно поэтому нам часто приходит код, который вы должны подтвердить или вбить в ваш браузер, 3) другой фактор аутентификации – это свойства, например, биометрия, опечаток пальца, сетчатки глаза, 4) четвертый фактор аутентификации – локация. Способ аутентификации, как правило, выбирается банком.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;При онлайн платежах сегодня используется:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Онлайн платежи&#34; srcset=&#34;
+               /project/new_proj/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_b70780f9dbf3aada180036b60c8be433.webp 400w,
+               /project/new_proj/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_65d4f4b1d88c241f988f84fcdcb39e9c.webp 760w,
+               /project/new_proj/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_b70780f9dbf3aada180036b60c8be433.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Сейчас однофакторная аутентификация покупателя практически не используется, так как не имеет той степени безопасности, и в многофакторной аутентификации - подтверждать, что именно вы совершаете платеж необходимо банку-эмитенту.&lt;/p&gt;
+&lt;h2 id=&#34;блокчейн&#34;&gt;Блокчейн&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Какое свойство криптографической хэш-функции используется в доказательстве работы:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;свойство хэш-функции&#34; srcset=&#34;
+               /project/new_proj/4.4/1_hu2bd516dea219fed0f82ca6a8e8deaad1_268542_c028f24c65c32d70497aab0a2e141af9.webp 400w,
+               /project/new_proj/4.4/1_hu2bd516dea219fed0f82ca6a8e8deaad1_268542_80dada91d9217bfcf2891c92a51030fa.webp 760w,
+               /project/new_proj/4.4/1_hu2bd516dea219fed0f82ca6a8e8deaad1_268542_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.4/1_hu2bd516dea219fed0f82ca6a8e8deaad1_268542_c028f24c65c32d70497aab0a2e141af9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Хэш-функция - это функция, которая берет на вход любые данные и выдает за какое-то быстрое время фиксированное число бит. И задача майнера в доказательстве работы - это отыскать такой вход в хэш-функцию, что ее значение имеет определенный паттерн, иными словами, отыскать такой x, что h(x) имеет, например, 17 первых нулей или 17 первых единиц, это неважно. В биткоине используют 18 или 19 первых нулей. Это число на самом деле может быть модифицировано относительно производительности сети в тот или иной момент времени. Оно примерно находится в районе в 17-19. Почему эта задача сложная? Потому что мы знаем, что для криптографической хэш-функции неизвестно на сегодняшний день атаки быстрее, чем перебором для конкретно этой задачи. Если я вам даю какую-то хэш-функцию, например, SHA-3 или ГОСТ и прошу мне найти такой x, что h(x) содержит 17 первых нулей, и все, что вы будете делать - это перебирать разные x, смотреть на их выход и проверять, действительно ли выходное значение содержит 17 первых нулей или нет. Таким образом, ожидаемое число различных входных данных x, которое нам необходимо перебрать, пока мы не найдем нужный паттерн, примерно равно 217.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Консенсус в некоторых системах блокчейн обладает свойствами:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;консенсус&#34; srcset=&#34;
+               /project/new_proj/4.3/2_hu798e02834e73996094f530b042b8d482_281598_63441528ec064b519375790b31ad38f9.webp 400w,
+               /project/new_proj/4.3/2_hu798e02834e73996094f530b042b8d482_281598_783b00e6ff327cf69d36b34a5a9c71ef.webp 760w,
+               /project/new_proj/4.3/2_hu798e02834e73996094f530b042b8d482_281598_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.3/2_hu798e02834e73996094f530b042b8d482_281598_63441528ec064b519375790b31ad38f9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;В основе любого блокчейна, в частности биткоина, лежит консенсус – соглашение, в терминах криптовалют консенсус - это некая публичная структура данных или ledger (переводится с английского как «бухгалтерская книга»), где просто содержится история всех переводов, хранится список того, кто что кому заплатил, в какое время. Почему консенсус? Потому что эта публичная структура, и бухгалтерский учет должен обеспечивать четыре основных свойства. Первое - это постоянство, то есть когда-либо добавленНые данные не должны быть удалены из этой структуры. Второе - это сам консенсус, то есть все участники видят одни и те же данные и соглашаются с одним и теми же данными, исключением могут быть последние пары блоков, то есть последние изменения в этом блокчейне, в этой публичной структуре данных. Третье - это живучесть, это означает, что мы можем добавлять новые транзакции, когда хотим, мы можем осуществлять платежи, когда хотим. И последнее четвертое свойство - это открытость, то есть любой человек может быть участником блокчейна. Это справедливо не для всех блокчейнов, для биткоина это справедливо.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Секретные ключи какого криптографического примитива хранят участники блокчейна:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;примитив&#34; srcset=&#34;
+               /project/new_proj/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_b70780f9dbf3aada180036b60c8be433.webp 400w,
+               /project/new_proj/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_65d4f4b1d88c241f988f84fcdcb39e9c.webp 760w,
+               /project/new_proj/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/project/new_proj/4.3/3_hu18593a0627f60da7f1389dd2f5b6b7fc_284206_b70780f9dbf3aada180036b60c8be433.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Допустим, у нас вами есть в блокчейне 3 участника, которые обмениваются друг с другом транзакциями. Важно то, что у каждого участника есть свой секретный ключ, и своим секретным ключом мы всегда будем подтверждать какую-то транзакцию. Важно то, что этот ключ у нас секретный, мы его используем для подписи. Подпись – это и есть подтверждение моей транзакции. Мы с вами разбирали в одной из лекций, как работает электронная цифровая подпись, у этого примитива есть секретный и открытый ключи, и наш секретный ключ - это то, что позволяет нам совершать транзакции от нашего лица. То есть, если мы говорим, что мы в транзакции переводим 10 единиц денег какому-то человеку и подписываем эту транзакцию, это не может сделать никто, кроме нас, поскольку у нас есть секретный ключ. Допустим, у нас есть три участника сети, которые осуществили 3 какие-то транзакции и подписали их: первый со своим секретным ключом, второй - со своим и третий – со своим. Эти три транзакции формируются в один блок. Этот блок должен быть каким-то образом добавлен в сеть блокчейн. Кто из майнеров будет добавлять этот блок, решает как раз таки протокол консенсуса. Допустим, протокол выбрал верхнего майнера (мы далее поговорим, что это за протокол и что майнер должен сделать для того, чтобы быть выбранным), этот майнер формирует из трех транзакций блок, проверяет, что все там корректно, и добавляет этот блок в сеть. За это он получает награду: как только он совершил какую-то работу, то есть добавил блок в блокчейн, он получает некую награду за майнинг, состоящую из тех денег, которые добавляют вот эти три участника, которые инициировали транзакции.&lt;/p&gt;
+&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
+&lt;p&gt;В ходе работы мы изучили, как работают интернет протоколы, что такое персонализация сети, как работает анонимизирование в интернете, что такое луковая маршрутизация и как работают беспроводные сети Wi-fi, что такое шифрование диска и как оно происходит, какой пароль лучше поставить и как обезопасить себя от утечки данных атакой перебором, что такое фишинг и спуфинг, а также изучили безопасность в мессенджерах, что такое криптография, цифровая подпись, как происходят электронные платежи и что такое блокчейн.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
